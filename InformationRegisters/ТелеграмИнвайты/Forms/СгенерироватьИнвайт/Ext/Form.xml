@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Button name="ФормаСгенерировать" id="23">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.Сгенерировать</CommandName>
+			<ExtendedTooltip name="ФормаСгенерироватьРасширеннаяПодсказка" id="24"/>
+		</Button>
+		<InputField name="ТекстИнвайта" id="25">
+			<DataPath>ТекстИнвайта</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="ТекстИнвайтаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ТекстИнвайтаРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<Table name="ТаблицаРазрешений" id="1">
+			<Representation>List</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТаблицаРазрешений</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>OutputList</ExcludedCommand>
+				<ExcludedCommand>SelectAll</ExcludedCommand>
+				<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаРазрешенийКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТаблицаРазрешенийКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="ТаблицаРазрешенийРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТаблицаРазрешенийСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТаблицаРазрешений</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРазрешенийСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТаблицаРазрешенийСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаРазрешенийСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТаблицаРазрешений</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРазрешенийСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТаблицаРазрешенийСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаРазрешенийУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТаблицаРазрешений</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаРазрешенийУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТаблицаРазрешенийУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ТаблицаРазрешенийПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<CheckBoxField name="ТаблицаРазрешенийВыдать" id="17">
+					<DataPath>ТаблицаРазрешений.Выдать</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТаблицаРазрешенийВыдатьКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТаблицаРазрешенийВыдатьРасширеннаяПодсказка" id="19"/>
+				</CheckBoxField>
+				<CheckBoxField name="ТаблицаРазрешенийЗабрать" id="20">
+					<DataPath>ТаблицаРазрешений.Забрать</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТаблицаРазрешенийЗабратьКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТаблицаРазрешенийЗабратьРасширеннаяПодсказка" id="22"/>
+				</CheckBoxField>
+				<InputField name="ТаблицаРазрешенийОписание" id="28">
+					<DataPath>ТаблицаРазрешений.Разрешение.Описание</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="ТаблицаРазрешенийОписаниеКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ТаблицаРазрешенийОписаниеРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<InputField name="ТаблицаРазрешенийРазрешения" id="14">
+					<DataPath>ТаблицаРазрешений.Разрешение</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаРазрешенийРазрешенияКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТаблицаРазрешенийРазрешенияРасширеннаяПодсказка" id="16"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ГруппаАктивацияИВыдача" id="52">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа активация и выдача</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа активация и выдача</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаАктивацияИВыдачаРасширеннаяПодсказка" id="53"/>
+			<ChildItems>
+				<CheckBoxField name="Активирован" id="43">
+					<DataPath>Запись.Активирован</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Активирован пользователем</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АктивированКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="АктивированРасширеннаяПодсказка" id="45"/>
+				</CheckBoxField>
+				<UsualGroup name="Группа1" id="46">
+					<Group>AlwaysHorizontal</Group>
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="47"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаВыдача" id="48">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа выдача</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа выдача</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВыдачаРасширеннаяПодсказка" id="49"/>
+							<ChildItems>
+								<InputField name="ДатаВыдачи" id="37">
+									<DataPath>Запись.ДатаВыдачи</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="ДатаВыдачиКонтекстноеМеню" id="38"/>
+									<ExtendedTooltip name="ДатаВыдачиРасширеннаяПодсказка" id="39"/>
+								</InputField>
+								<InputField name="ДатаАктивации" id="40">
+									<DataPath>Запись.ДатаАктивации</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="ДатаАктивацииКонтекстноеМеню" id="41"/>
+									<ExtendedTooltip name="ДатаАктивацииРасширеннаяПодсказка" id="42"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаАктивация" id="50">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа активация</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа активация</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаАктивацияРасширеннаяПодсказка" id="51"/>
+							<ChildItems>
+								<InputField name="КтоВыдал" id="34">
+									<DataPath>Запись.КтоВыдал</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="КтоВыдалКонтекстноеМеню" id="35"/>
+									<ExtendedTooltip name="КтоВыдалРасширеннаяПодсказка" id="36"/>
+								</InputField>
+								<InputField name="КтоАктивировал" id="31">
+									<DataPath>Запись.КтоАктивировал</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<ContextMenu name="КтоАктивировалКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="КтоАктивировалРасширеннаяПодсказка" id="33"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ТаблицаРазрешений" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица разрешений</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Разрешение" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разрешение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ТелеграмПараметры</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Выдать" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выдать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Забрать" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Забрать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТекстИнвайта" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст инвайта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПараметрВыбран" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметр выбран</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Запись" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запись</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ТелеграмИнвайты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ЭтоНовый" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это новый</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сгенерировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сгенерировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сгенерировать</Action>
+		</Command>
+	</Commands>
+</Form>
