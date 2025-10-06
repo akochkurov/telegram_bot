@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Специальные обработки</title>
+</head>
+<body>
+    <p>
+        <h3>
+            Перед выполнением
+        </h3>
+        Срабатывает перед выполнением всех сервисов/обработок при поступлении обновления, но после обработок "Ограниченный доступ"
+    </p>
+</body>
+</html>
