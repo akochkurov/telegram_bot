@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.20">
+	<Item id="7827f0ec-190f-4a87-91e2-84501b5ac044">
+		<Name>КоличествоФотографий</Name>
+		<Code>000000110</Code>
+		<Description>Количество фотографий</Description>
+		<Type>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>2</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="038311ac-35ee-4a61-b45f-eb960f55d351">
+		<Name>Команда</Name>
+		<Code>000000010</Code>
+		<Description>Команда</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="921623e6-dbd7-437a-9ce3-8ce8c710476f">
+		<Name>ОтветКонтекстнойКлавиатуры</Name>
+		<Code>000000030</Code>
+		<Description>Ответ контекстной клавиатуры</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>64</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cf834f4b-3c39-4f34-b609-2d28c9fd53d9">
+		<Name>Подпись</Name>
+		<Code>000000090</Code>
+		<Description>Подпись</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="86565cba-8ff2-4bf5-9f52-581310bcf6a6">
+		<Name>СодержитАудио</Name>
+		<Code>000000140</Code>
+		<Description>Содержит аудио</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cb00206c-baac-46e3-aff3-91347dba85a7">
+		<Name>СодержитВидео</Name>
+		<Code>000000130</Code>
+		<Description>Содержит видео</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b319c214-a0a0-46f3-9ad6-34526ef10333">
+		<Name>СодержитВидеозаметку</Name>
+		<Code>000000135</Code>
+		<Description>Содержит видеозаметку</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="48f66e1e-d552-4786-8af2-9d72eb7020e4">
+		<Name>СодержитГолосовоеСообщение</Name>
+		<Code>000000180</Code>
+		<Description>Содержит голосовое сообщение</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="32f177e1-2c56-4da9-9330-dd52f2626ddf">
+		<Name>СодержитДокумент</Name>
+		<Code>000000120</Code>
+		<Description>Содержит документ</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1fd41a4a-7757-456a-9121-923c031f7dea">
+		<Name>СодержитКонтакт</Name>
+		<Code>000000150</Code>
+		<Description>Содержит контакт</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="21249b5b-35b9-4da8-a54e-22e5a55417b8">
+		<Name>СодержитМестоНаКарте</Name>
+		<Code>000000170</Code>
+		<Description>Содержит место на карте</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="531dab3f-779c-4d08-8054-fea8daa6bc4c">
+		<Name>СодержитМестоположение</Name>
+		<Code>000000160</Code>
+		<Description>Содержит местоположение</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="614c96cb-69f8-4be4-9718-b53eae0c7bda">
+		<Name>СодержитФотографии</Name>
+		<Code>000000100</Code>
+		<Description>Содержит фотографии</Description>
+		<Type>
+			<v8:Type>xs:boolean</v8:Type>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ed32ed0f-d2b8-4f6c-bac1-06d52dde5a0d">
+		<Name>Сообщение</Name>
+		<Code>000000020</Code>
+		<Description>Сообщение</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f0c6241e-1e11-4e93-8808-8429a04500de">
+		<Name>Ссылка</Name>
+		<Code>000000060</Code>
+		<Description>Ссылка</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b4917e2b-f4e0-45da-b91c-e4a743c813a9">
+		<Name>ТелефонныйНомер</Name>
+		<Code>000000080</Code>
+		<Description>Телефонный номер</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d7f5daa6-af57-4adb-8c5d-ed318216bcc0">
+		<Name>Упоминание</Name>
+		<Code>000000040</Code>
+		<Description>Упоминание</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0878bc90-5548-41da-82c5-22c7e392a6f0">
+		<Name>Хэштег</Name>
+		<Code>000000050</Code>
+		<Description>Хэштег</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74b7597d-2959-409c-9545-92703d406f51">
+		<Name>ЭлектроннаяПочта</Name>
+		<Code>000000070</Code>
+		<Description>Электронная почта</Description>
+		<Type>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>200</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</Type>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
