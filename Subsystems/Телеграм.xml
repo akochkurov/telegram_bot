@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="87820818-7e7a-44b4-a475-e80c52ae0a2a">
+		<Properties>
+			<Name>Телеграм</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Телеграм</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.ТелеграмЛоготип32</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмБоты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмОбработки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТелеграмСпециальныеОбработки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмНастройкиПрокси</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмМетоды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТелеграмСпособыЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмСервисы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ТелеграмУсловия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТелеграмЛогическиеГруппы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТелеграмВидыСравнения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмПиктограммыЭлементов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмФрагменты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмКлавиатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмСмещение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ТелеграмСерверПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмЭмодзи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмЭмодзи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТелеграмВидыКлавиатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмИзбранныеМетоды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмИзбранныеФрагменты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмИдентификаторыФайлов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.ТелеграмВебхук</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмЧатыПользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмСтатистика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ТелеграмПараметры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмЗначенияПараметров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТелеграмСпособыСвязи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТелеграмСобытияЖурнала</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмЖурнал</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.ТелеграмКоманды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ТелеграмКонструкторЗапроса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ТелеграмКонструкторФорматнойСтроки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ТелеграмПолучениеОбновлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ТелеграмТаймеры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ТелеграмОчисткаЖурнала</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ТелеграмПолучениеОбновлений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ТелеграмТаймеры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ТелеграмКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ТелеграмСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ТелеграмПолныеПрава</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ТелеграмПросмотр</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмВажностьВысокая</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмЗеленыйШар</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмИнформация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмКопировать</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмКрасныйШар</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТелеграмТекущаяВерсия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ТелеграмСправка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмЛоготип16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ТелеграмЛоготип32</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТелеграмРассылки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ТелеграмИнвайтыИзменение</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>ПервыеШаги</Subsystem>
+			<Subsystem>Настройки</Subsystem>
+			<Subsystem>Списки</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

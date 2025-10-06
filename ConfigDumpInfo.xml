@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.ТелеграмБоты" id="c6f4c648-d9d0-4325-9045-4c1971cd58e1" configVersion="d89f10f43fe2394295f231093cc588dd00000000">
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ВебхукАдрес" id="0ad8f96a-23b5-4fcb-9b0d-12534d109484"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.АдресАпи" id="0d92fe8e-195e-4ed3-98d9-79e93e35b16e"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ВебхукIPАдрес" id="18fbb185-e669-4970-86a2-bcce6cbd12a7"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.Комментарий" id="1b524a97-d9cb-42a6-8e9e-e48bcce93a9e"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.НастройкаПрокси" id="1cafea27-7ac2-4380-a5b1-c93ec0be92e5"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.Отладка" id="5fcb044b-fb08-4de7-8f85-d110094f2067"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.Используется" id="68ba9cc9-5421-4df0-b8e3-178d1d59e4f1"/>
+			<Metadata name="Catalog.ТелеграмБоты.TabularSection.СпециальныеОбработки.Attribute.Используется" id="6b7fdc4c-bf65-48c3-8a22-3aaf03a94426"/>
+			<Metadata name="Catalog.ТелеграмБоты.TabularSection.СпециальныеОбработки.Attribute.Условие" id="80ecc294-49b1-42ef-834a-80c1e481520e"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ТаймаутСоединения" id="8656a815-8207-4432-b691-a6bd6a0786e7"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.Таймаут" id="94ee8bb2-4c70-4c26-996d-a8efd7295ae8"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ОграниченныйДоступ" id="9672dbdd-e316-4728-9e36-5969e6ff3dce"/>
+			<Metadata name="Catalog.ТелеграмБоты.TabularSection.СпециальныеОбработки.Attribute.Обработка" id="99c49ea1-7e8e-43b1-9291-5f8eebb955d1"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ДобавлятьВСервисы" id="9f5ec46a-ea15-4106-8af5-7177d731c926"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ХранитьЖурналДней" id="a85fe041-377b-4cc0-ad0d-916a601e8d18"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ЧатПриОтладке" id="a89192fc-c2e0-4b89-ad9a-84ecc50424d8"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ИспользуетсяСамозаверенныйСертификат" id="ba53f643-46a4-4e79-b75e-3d31104f6cdb"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ИмяБота" id="ba88f843-79eb-4e51-95be-c79fce6098e8"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.СамозаверенныйСертификат" id="bab6350a-1434-4726-a8b0-3130c661f999"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ИспользуетсяПрокси" id="dee5c1d6-22ab-4ac9-9182-164f0ec89f8c"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.ВебхукКлюч" id="e5c4a2dd-e36c-4af4-af6a-528a12720012"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.Токен" id="f065eca4-d7c3-4179-9524-85533a92454f"/>
+			<Metadata name="Catalog.ТелеграмБоты.TabularSection.СпециальныеОбработки" id="fa597903-6bd2-440e-b236-dc9f6cc72441"/>
+			<Metadata name="Catalog.ТелеграмБоты.Attribute.СпособСвязи" id="fc9952f3-e96a-4dc6-9245-72444f80b0f9"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаВыбора" id="5d20d933-2471-4d2c-9203-95cd3f7e7e38" configVersion="084b3c15d9830849b976330eb60ad3b200000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаВыбора.Form" id="5d20d933-2471-4d2c-9203-95cd3f7e7e38.0" configVersion="6c070461c4840c4691d56cb317e6ed6500000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаСозданияРегламентногоЗадания" id="fb6dee2e-256b-438a-b35a-63ffb6b785ab" configVersion="2881ba0cc7449b41896ad91f8bf19b7500000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаСозданияРегламентногоЗадания.Form" id="fb6dee2e-256b-438a-b35a-63ffb6b785ab.0" configVersion="791209e432fdcf44bcabd0ff208a096b00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаСообщения" id="f178af1c-e949-42bd-bd23-809f8e72bd39" configVersion="2e94e3195432a14d9f0e2fea3d44a01b00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаСообщения.Form" id="f178af1c-e949-42bd-bd23-809f8e72bd39.0" configVersion="1097d2f88877e94197a8c1fa4cfd4cb200000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаСписка" id="685280bc-83a3-4ac3-bcef-72c91a071662" configVersion="384be46a687d2f4b8913b59e6acd898400000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаСписка.Form" id="685280bc-83a3-4ac3-bcef-72c91a071662.0" configVersion="0e29f72d04c4bf48b0b0d31ca863673b00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаЭлемента" id="7b50a868-b080-4391-bbcb-d4678be88374" configVersion="e651101cc31c2a44a3f7a6bf160a1dab00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Form.ФормаЭлемента.Form" id="7b50a868-b080-4391-bbcb-d4678be88374.0" configVersion="dbfac19accd8394592b9cb0a2b6d5e5200000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Help" id="c6f4c648-d9d0-4325-9045-4c1971cd58e1.1" configVersion="d633e4a431225d45954d08cf111b98f100000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.ManagerModule" id="c6f4c648-d9d0-4325-9045-4c1971cd58e1.3" configVersion="2ca54360d9f6014789395bb35d979e6600000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.ObjectModule" id="c6f4c648-d9d0-4325-9045-4c1971cd58e1.0" configVersion="5f1112974206b742b283f12a4370a71d00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Template.МакетGet" id="0ad87795-047b-48a7-ac39-bd06f36f33dd" configVersion="8f60f8a75b86e34caa80211c110a65e400000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Template.МакетGet.Template" id="0ad87795-047b-48a7-ac39-bd06f36f33dd.0" configVersion="7861b18667c6da4c9315276708c31b8200000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Template.НеЗагруженыПервоначальныеДанные" id="03074c8d-1bca-40bd-892d-6cf579ff3bbc" configVersion="497ebb563b37514599d861d8b36fa5cc00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Template.НеЗагруженыПервоначальныеДанные.Template" id="03074c8d-1bca-40bd-892d-6cf579ff3bbc.0" configVersion="193471553dd5cb4d98da5e0f2727128e00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Template.СостояниеБота" id="58f67113-ad48-4ecc-a8a5-a4a4896ae8a0" configVersion="cd7f5496499ed2478be36b8e14c6176a00000000"/>
+		<Metadata name="Catalog.ТелеграмБоты.Template.СостояниеБота.Template" id="58f67113-ad48-4ecc-a8a5-a4a4896ae8a0.0" configVersion="aeb3a100d4d84c4f85cd76b46b33aa1b00000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры" id="a28d080c-a110-4960-91af-bcb6111b0176" configVersion="2372d098ad0c3849af309424eb5b949400000000">
+			<Metadata name="Catalog.ТелеграмКлавиатуры.TabularSection.Кнопки.Attribute.ЗапроситьКонтакт" id="14ae8a82-3efc-4aee-9569-ca3e617efc7d"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.Attribute.Программная" id="29931cb0-24b0-4d12-96ea-e1c562f35aff"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.Attribute.СкрыватьПослеИспользования" id="353bab4c-c55a-484b-a23d-01f15fc7b0b2"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.Attribute.КодКлавиатуры" id="3676eb24-ec87-44c4-b937-884da7cfd130"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.TabularSection.Кнопки.Attribute.ЗапроситьМестоположение" id="623b6628-f087-41a0-aa8f-f1ece484b032"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.TabularSection.Кнопки.Attribute.ДанныеОтправки" id="7d9c8ba1-4ee0-4c70-8b21-aa0e1c2803fc"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.TabularSection.Кнопки.Attribute.URL" id="85f93d75-bea2-47cb-9e8a-d470e14fa7be"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.Attribute.Вид" id="910aac38-772b-4a5e-92b8-da328413fa42"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.TabularSection.Кнопки.Attribute.Текст" id="cb20bd8c-8a5a-45da-ae99-e82f61d2b975"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.TabularSection.Кнопки.Attribute.Строка" id="d84ea5a1-d1fb-4ef7-b3db-e16c0f4b3a72"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.Attribute.Комментарий" id="dfe7db13-a141-4b82-87f4-47c9d1e25de5"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.TabularSection.Кнопки" id="e6495a91-cdd6-4f58-ada3-41a1468582a8"/>
+			<Metadata name="Catalog.ТелеграмКлавиатуры.Attribute.Авторазмер" id="eaeab256-b997-45cb-bb26-d9cf531c0db7"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Form.КодКлавиатуры" id="386ed7a9-f319-4bda-adc0-20ec7a7317f3" configVersion="41fa8d10f5b92d4ba1b473a396f07d8500000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Form.КодКлавиатуры.Form" id="386ed7a9-f319-4bda-adc0-20ec7a7317f3.0" configVersion="a752d4fee510254eabf34c0406e5c85200000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Form.ФормаСписка" id="171d5505-c1c7-4feb-b9b0-3f0c1019f8a5" configVersion="4b0d69889ccb93479f0811efb5b2826800000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Form.ФормаСписка.Form" id="171d5505-c1c7-4feb-b9b0-3f0c1019f8a5.0" configVersion="c00b1811d1a20c478fa5b563a8fe62d100000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Form.ФормаЭлемента" id="7bebacc6-0b7f-4642-b587-f67d09fe1897" configVersion="5651e50af1b41840a8a0476b08a5d16c00000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Form.ФормаЭлемента.Form" id="7bebacc6-0b7f-4642-b587-f67d09fe1897.0" configVersion="b5debe62dd68e9469f1dacba7d034bf500000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Help" id="a28d080c-a110-4960-91af-bcb6111b0176.1" configVersion="fba925d4ac70154590fc57c5befd72fd00000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.ManagerModule" id="a28d080c-a110-4960-91af-bcb6111b0176.3" configVersion="8690782410bab545aa88f5371d12a18b00000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.ObjectModule" id="a28d080c-a110-4960-91af-bcb6111b0176.0" configVersion="a8e73a4b5c27ca4fba73936544a7378400000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Template.КодКлавиатуры" id="f596bc82-2784-4aed-adc5-2d56cbdccab9" configVersion="ce143602271b0a4b9a320542ece4c88300000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Template.КодКлавиатуры.Template" id="f596bc82-2784-4aed-adc5-2d56cbdccab9.0" configVersion="84f5f8e1c8c91b48adb2a7089ee12e8600000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Template.ПодсказкаПоПараметрам" id="e844ce74-a037-4cb7-b421-feeae04d9624" configVersion="0d0491c00dc75e4db6f2e348498bc93500000000"/>
+		<Metadata name="Catalog.ТелеграмКлавиатуры.Template.ПодсказкаПоПараметрам.Template" id="e844ce74-a037-4cb7-b421-feeae04d9624.0" configVersion="937783eb6ab4644d99875e399b4dcc0c00000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды" id="208ca97c-94f3-44e6-8724-731f9e9dfee7" configVersion="664626d45bb85544ba74709886cfb39600000000">
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.URL2" id="17b78aff-c74b-4a31-ba9f-cce26a7ec9f4"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.ОтслеживатьПоКонтрольнойСумме" id="21339903-4222-42c6-af3a-f873bdcbd68b"/>
+			<Metadata name="Catalog.ТелеграмМетоды.Attribute.URL" id="30e5f40b-05a3-4f30-8704-885f2845c08c"/>
+			<Metadata name="Catalog.ТелеграмМетоды.Attribute.Метод" id="37ff8965-de87-43ed-bc16-c0498fdc06d6"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.ДвоичныеДанные" id="52090a09-442b-4cb0-b850-5c3fd159f9cb"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.URL1" id="6188dc1a-712a-4321-b208-aa3038074c67"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.Тип" id="7a41df9c-4894-4917-a1b8-1f59a2fb4153"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.ОбязателенДляПередачи" id="81036465-f049-4f3a-a5ca-fdf9ecf0f78d"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.Параметр" id="846ecddb-7af0-4549-9267-f8fba31caf6b"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.ПараметрОтслеживания" id="862de85b-9b6f-4b48-a743-fc262279edec"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.ЕстьПроцедура" id="9320a391-c4b7-431d-b517-49f3312b00f4"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры" id="9b93dc3c-1f6c-4019-bfd8-345f5fe4cd5c"/>
+			<Metadata name="Catalog.ТелеграмМетоды.Attribute.Описание" id="abda0d4f-0188-4ac7-881f-676807193434"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.ОбязателенДляЗаполнения" id="cce5c7f8-4be0-4647-9216-73b453aeb329"/>
+			<Metadata name="Catalog.ТелеграмМетоды.Attribute.СпособЗапроса" id="cfa4c656-75e5-4df2-9396-b5af43258391"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.Наименование" id="d222cb9a-464b-4318-ab16-a232139b52c5"/>
+			<Metadata name="Catalog.ТелеграмМетоды.Attribute.Комментарий" id="d41a2817-d024-4da8-b82b-3be67c6d9633"/>
+			<Metadata name="Catalog.ТелеграмМетоды.TabularSection.Параметры.Attribute.Описание" id="ecd4cf24-4fa8-4faf-a026-0f3f98bb1e71"/>
+			<Metadata name="Catalog.ТелеграмМетоды.Attribute.ФункцияМетода" id="fce92374-1bab-4be7-ad73-4a02750c454c"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаВыбора" id="cb08f9a3-b8ca-444b-9c6b-129d64415be6" configVersion="f16e33a5e668f340850d9685410ec1fa00000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаВыбора.Form" id="cb08f9a3-b8ca-444b-9c6b-129d64415be6.0" configVersion="79e27acab701c348bbde403817264eb300000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаВыбораГруппы" id="0cde5b64-0bba-4254-86ce-dd72be49392b" configVersion="25f92c9fee936f46ab151b6b5da2754c00000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаВыбораГруппы.Form" id="0cde5b64-0bba-4254-86ce-dd72be49392b.0" configVersion="743d0fc54b0bd2489c2176c34bbb824b00000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаГруппы" id="c87b1591-a124-464d-85ad-3eb6cfcf2a7e" configVersion="2fa3592d6f42be4181d9e0ad35c5892900000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаГруппы.Form" id="c87b1591-a124-464d-85ad-3eb6cfcf2a7e.0" configVersion="fad0e25c78e7194c926320ef4eda778a00000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаСписка" id="7a677cf1-6105-4419-bf36-be88915a5d9b" configVersion="65a11f8ea9fb2948a1c87dbbf3eeb9a000000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаСписка.Form" id="7a677cf1-6105-4419-bf36-be88915a5d9b.0" configVersion="99fbb814648bf54796c913a6ecab6f9200000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаЭлемента" id="68fdb4ca-3fb3-4346-9987-34af1cad0a20" configVersion="0eea765b6bc68f40ad09f3146ac02ba100000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Form.ФормаЭлемента.Form" id="68fdb4ca-3fb3-4346-9987-34af1cad0a20.0" configVersion="067f6816643cd64b98ab819c315e2ca100000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.Help" id="208ca97c-94f3-44e6-8724-731f9e9dfee7.1" configVersion="a6e1a5deac802a4eaea2c175cf34d59300000000"/>
+		<Metadata name="Catalog.ТелеграмМетоды.ObjectModule" id="208ca97c-94f3-44e6-8724-731f9e9dfee7.0" configVersion="5dcd91940f741a4ab8944214c57b3eb600000000"/>
+		<Metadata name="Catalog.ТелеграмНастройкиПрокси" id="9497ad1b-4da9-4032-98c0-7a216e633b08" configVersion="6904728350c9124da3b7393db66eb1b800000000">
+			<Metadata name="Catalog.ТелеграмНастройкиПрокси.Attribute.Порт" id="0e001907-f605-41f5-baa3-a57b40d3d1d3"/>
+			<Metadata name="Catalog.ТелеграмНастройкиПрокси.Attribute.Протокол" id="657ee371-38c9-44a0-9e25-9dbf98bddc1b"/>
+			<Metadata name="Catalog.ТелеграмНастройкиПрокси.Attribute.Пароль" id="658848e3-96eb-4bd0-9cf0-d75abd41ec18"/>
+			<Metadata name="Catalog.ТелеграмНастройкиПрокси.Attribute.Адрес" id="6a2f55a4-0b0f-48e2-993c-301187c08c34"/>
+			<Metadata name="Catalog.ТелеграмНастройкиПрокси.Attribute.Пользователь" id="bd3e7dfc-0bad-415f-b789-741f7fed6aa7"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмНастройкиПрокси.Help" id="9497ad1b-4da9-4032-98c0-7a216e633b08.1" configVersion="942abc0e2455d947bb8a4be834cff5e100000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки" id="6412a50d-b190-499a-9fe7-c992fdd0ec43" configVersion="6994cb5a59a7bb4fb0f47d114d3b8e9d00000000">
+			<Metadata name="Catalog.ТелеграмОбработки.Attribute.Используется" id="220f48c7-7f14-4f09-91eb-fdb702451226"/>
+			<Metadata name="Catalog.ТелеграмОбработки.Attribute.Бот" id="527f4fb1-b828-43f2-895b-7c38e8f03c06"/>
+			<Metadata name="Catalog.ТелеграмОбработки.Attribute.КодОбработки" id="bc04672b-8b6a-47a6-93fc-acc0d7a4c050"/>
+			<Metadata name="Catalog.ТелеграмОбработки.Attribute.Комментарий" id="f898a7c8-626f-4201-bd0f-34b661949c92"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаВыбора" id="7841ef98-5a3a-4c0e-b3cf-62140e70482e" configVersion="b6a556dd4e02094e80b9c2c7d908cefd00000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаВыбора.Form" id="7841ef98-5a3a-4c0e-b3cf-62140e70482e.0" configVersion="835c97964108194ba9de924c17638aa800000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаВыбораГруппы" id="09fd2d70-5926-4e9e-9867-d1ae16817611" configVersion="7d6c054b89a4204f831a57fbf706e48600000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаВыбораГруппы.Form" id="09fd2d70-5926-4e9e-9867-d1ae16817611.0" configVersion="32dddc6e8e389f409f0eb64dbbcd196e00000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаГруппы" id="4218a757-17f6-4fc0-9d09-9da362babcef" configVersion="cae693a206fc574aad04505458c76bd200000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаГруппы.Form" id="4218a757-17f6-4fc0-9d09-9da362babcef.0" configVersion="d215af3ca72e114da0fefd3436fe73ba00000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаПодбораПараметровМетода" id="183bac3c-d30a-48b1-b48f-631e6ee97730" configVersion="7e2fb30dc270c348bb29c8b0e67051a300000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаПодбораПараметровМетода.Form" id="183bac3c-d30a-48b1-b48f-631e6ee97730.0" configVersion="3724fc04400ff144834478569e13f20300000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаСписка" id="6fe61707-1be7-42e4-9c8c-8376f7525bd1" configVersion="d3d13fb7991a2540a13aab4694727b6800000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаСписка.Form" id="6fe61707-1be7-42e4-9c8c-8376f7525bd1.0" configVersion="0e228ba34fe74545bbd9f8f3e5010e8200000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаЭлемента" id="1bd10512-20a0-49a6-b016-b044472b8187" configVersion="3a8922c3c73ffa42930149ca3b1aa2f300000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Form.ФормаЭлемента.Form" id="1bd10512-20a0-49a6-b016-b044472b8187.0" configVersion="8ac5a6c734fef94caf9724ba76e4e1b700000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Help" id="6412a50d-b190-499a-9fe7-c992fdd0ec43.1" configVersion="c7912e12bc59d643b15fdc17822927a300000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.ManagerModule" id="6412a50d-b190-499a-9fe7-c992fdd0ec43.3" configVersion="ae707a879b305a4c9c989de39a5c127d00000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.ObjectModule" id="6412a50d-b190-499a-9fe7-c992fdd0ec43.0" configVersion="acbb8daa16cf554e98ac102d179b016c00000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Template.ОписаниеHTML" id="5ee1dc13-f798-4d33-88d9-61053fd9d468" configVersion="f35f5516fe324247a10b5f05bfc5a49e00000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Template.ОписаниеHTML.Template" id="5ee1dc13-f798-4d33-88d9-61053fd9d468.0" configVersion="59a8dfd8f168b542a01283802111f94900000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Template.ПодсказкаПоПараметрам" id="cd0d2ad3-efab-4641-8d92-1574f32374bd" configVersion="583ce469fa00dd4aad216019ff73496800000000"/>
+		<Metadata name="Catalog.ТелеграмОбработки.Template.ПодсказкаПоПараметрам.Template" id="cd0d2ad3-efab-4641-8d92-1574f32374bd.0" configVersion="603d31c21d0ec24cbedcc42b0d8d7c7000000000"/>
+		<Metadata name="Catalog.ТелеграмРассылки" id="611d2f1d-9844-4754-8d1e-a2c286e5326b" configVersion="ec6a49b4d1bda24386572d41a4c663db00000000">
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.ЧатыИБоты.Attribute.Пользователь" id="09d9b9f3-5253-431f-be82-f62a8f4c2939"/>
+			<Metadata name="Catalog.ТелеграмРассылки.Attribute.Обработка" id="121d42bb-2b02-4610-9cdc-8a5f3f950b06"/>
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.ЧатыИБоты.Attribute.Чат" id="1cb9533b-4692-4eec-a291-c1070f9138bc"/>
+			<Metadata name="Catalog.ТелеграмРассылки.Attribute.Использовать" id="1ec1de80-5231-4225-839f-ce84b5a23aae"/>
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.Параметры.Attribute.ИмяПараметра" id="2ecaf43a-4b91-4b07-af9a-a842e0855977"/>
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.Параметры.Attribute.ЭтоМассив" id="7454feaa-a120-435b-a92e-f984e6a05e60"/>
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.ЧатыИБоты" id="82014a60-0c3d-43d8-9d65-fc6b33d35caa"/>
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.Параметры" id="c3a812d4-4c6f-487e-ad07-382cce9e6683"/>
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.ЧатыИБоты.Attribute.Бот" id="c531a179-1a1b-435e-bc87-1d8714bfaa90"/>
+			<Metadata name="Catalog.ТелеграмРассылки.TabularSection.Параметры.Attribute.ЗначениеПараметра" id="c6d9b582-4d0d-4dec-8a0b-1d427f95bd1a"/>
+			<Metadata name="Catalog.ТелеграмРассылки.Attribute.РегламентноеЗаданиеGUID" id="c86c1453-8ede-4389-83b7-2fc6a0be359e"/>
+			<Metadata name="Catalog.ТелеграмРассылки.Attribute.РегламентноеЗаданиеИспользование" id="f0c6d51e-5415-4086-9af7-893b13825d59"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмРассылки.Form.ФормаЭлемента" id="6a0c9d0d-68a9-4b09-a220-c2ebdcb71daa" configVersion="6ec9938cdb25ca43a0e80edc86937eb600000000"/>
+		<Metadata name="Catalog.ТелеграмРассылки.Form.ФормаЭлемента.Form" id="6a0c9d0d-68a9-4b09-a220-c2ebdcb71daa.0" configVersion="88fb65c65d45d346aee4cd20c1c5b95600000000"/>
+		<Metadata name="Catalog.ТелеграмРассылки.ManagerModule" id="611d2f1d-9844-4754-8d1e-a2c286e5326b.3" configVersion="a39c25752f81da49bd33dc96a88c4f5d00000000"/>
+		<Metadata name="Catalog.ТелеграмРассылки.ObjectModule" id="611d2f1d-9844-4754-8d1e-a2c286e5326b.0" configVersion="65cb2a3b6b3334449e2f4546d5df63e100000000"/>
+		<Metadata name="Catalog.ТелеграмРассылки.Predefined" id="611d2f1d-9844-4754-8d1e-a2c286e5326b.1c" configVersion="8a61a2f2dc80f34bad9aae0ef168c5c300000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы" id="09c93e96-86fc-4274-9f60-c3b9745b4f64" configVersion="7b2ef4169f680a45b655972cc53def4000000000">
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Боты.Attribute.Бот" id="0bb1f391-88ae-420d-b813-45dd33f64ee4"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Условия" id="18bb5cc0-f111-4b49-b17b-c1858c66babc"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Боты" id="19f683e4-4306-4209-9123-77f022308eac"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Условия.Attribute.ВидСравнения" id="2555b0e4-0b41-4e84-b78d-27aac61d1208"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Условия.Attribute.Условие" id="274af89a-9f33-4a54-a104-ace2de90177b"/>
+			<Metadata name="Catalog.ТелеграмСервисы.Attribute.Используется" id="27a3f6d8-29b3-4e93-86a8-2adaca78faf2"/>
+			<Metadata name="Catalog.ТелеграмСервисы.Attribute.УсловияСтрокой" id="45e399c6-878d-4cd6-8172-c8d8b091f553"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Обработки" id="4a11070c-82a2-4e6d-98ed-36999a3da1a6"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Условия.Attribute.ЛогическаяГруппа" id="5fc86c27-71d7-4ca6-a7b0-6f50f6534484"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Условия.Attribute.Значение" id="6e84a12d-f877-4b61-a936-5c5c646dc3ed"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Обработки.Attribute.Обработка" id="819ceeff-87e7-4113-9c68-5fabf566f49d"/>
+			<Metadata name="Catalog.ТелеграмСервисы.Attribute.Комментарий" id="a63094a6-e5c7-4f63-90bc-17567be55514"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Условия.Attribute.Родитель" id="aaf2fa91-5edc-4fc3-8d1f-3370a6d11e4c"/>
+			<Metadata name="Catalog.ТелеграмСервисы.TabularSection.Условия.Attribute.Код" id="b2cb5dac-519f-41db-b0b0-f024ca8aec9f"/>
+			<Metadata name="Catalog.ТелеграмСервисы.Attribute.БотыСтрокой" id="c759b233-bf0e-4f66-80ae-3be63d158d77"/>
+			<Metadata name="Catalog.ТелеграмСервисы.Attribute.ОбработкиСтрокой" id="d3d54757-35e7-4ddf-8f4e-7473c930f773"/>
+			<Metadata name="Catalog.ТелеграмСервисы.Attribute.Сортировка" id="e71e10f8-f96e-4d8e-9f35-8b99aaeb28f0"/>
+			<Metadata name="Catalog.ТелеграмСервисы.Command.СсылающиесяСервисы" id="e85b3c38-a4d8-4cda-9d9b-db67063bc279"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмСервисы.Command.СсылающиесяСервисы.CommandModule" id="e85b3c38-a4d8-4cda-9d9b-db67063bc279.2" configVersion="1740b2dc65a4b3459eb858647a87c8e400000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.СсылающиесяСервисы" id="59ab48cd-95b6-43e4-8a49-d4edf63e9322" configVersion="a61650e084a61147927a0b7939d9ea0700000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.СсылающиесяСервисы.Form" id="59ab48cd-95b6-43e4-8a49-d4edf63e9322.0" configVersion="a5f4dbbfc3db2747b55ed829178145a200000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаВыбора" id="569f9083-736c-4c72-803d-6eb2680185d8" configVersion="dce9a24355bce940aab85c49d5586ca700000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаВыбора.Form" id="569f9083-736c-4c72-803d-6eb2680185d8.0" configVersion="f14078670d31684b935db88c92a833ea00000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаВыбораГруппы" id="c1720124-b867-461c-be76-b624aea96647" configVersion="fd529432d61ebe4b88c29a823aff866900000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаВыбораГруппы.Form" id="c1720124-b867-461c-be76-b624aea96647.0" configVersion="3d857bbed393f54b9cbd8e0357854d7500000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаГруппы" id="75db1753-827d-4417-9214-09239e2f6319" configVersion="0a478d4d4cff364996c1db0a45f17ff800000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаГруппы.Form" id="75db1753-827d-4417-9214-09239e2f6319.0" configVersion="bceab2a8a7ac574f924f916c0b30e13800000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаСписка" id="f5098a08-6635-4e71-a78a-85f7e6f58cc5" configVersion="3448e4d490a7514f8868320d78a854b200000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаСписка.Form" id="f5098a08-6635-4e71-a78a-85f7e6f58cc5.0" configVersion="67c8e732abff9a45a599280bc1c9851800000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаЭлемента" id="28590087-1a86-4360-9845-2d9aeb29e4f5" configVersion="c3947a59c2d63d4080a0dfc2b4bae69600000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Form.ФормаЭлемента.Form" id="28590087-1a86-4360-9845-2d9aeb29e4f5.0" configVersion="c31ab8cc112dc6428fa6841a9f2c5ddf00000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.Help" id="09c93e96-86fc-4274-9f60-c3b9745b4f64.1" configVersion="65acac9ae90efb49ad74e0ea9981af8d00000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.ManagerModule" id="09c93e96-86fc-4274-9f60-c3b9745b4f64.3" configVersion="156ac8224ca8ff458999b37aea7399eb00000000"/>
+		<Metadata name="Catalog.ТелеграмСервисы.ObjectModule" id="09c93e96-86fc-4274-9f60-c3b9745b4f64.0" configVersion="83cae19bdfc18a438cacb81a149a05a400000000"/>
+		<Metadata name="Catalog.ТелеграмФрагменты" id="a08706a3-e89e-44a8-b803-a523865aaad9" configVersion="8efe180c31254744889bc1b7717db36200000000">
+			<Metadata name="Catalog.ТелеграмФрагменты.Attribute.Фрагмент" id="51ec94c4-3719-404f-8902-e4663e58db2e"/>
+			<Metadata name="Catalog.ТелеграмФрагменты.Attribute.Комментарий" id="b8c31f0f-7975-4c64-b51f-57440bab73fa"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмФрагменты.Form.ФормаВыбора" id="fa377c38-7db0-40cd-9156-bf4829cbc51b" configVersion="2f9b811b0c89a848a8dba42b1ebe2ee300000000"/>
+		<Metadata name="Catalog.ТелеграмФрагменты.Form.ФормаВыбора.Form" id="fa377c38-7db0-40cd-9156-bf4829cbc51b.0" configVersion="9389fbd19be4a94abb6a7a036119930100000000"/>
+		<Metadata name="Catalog.ТелеграмФрагменты.Form.ФормаСписка" id="c054bc07-bf3f-4a9b-92a9-25d3c11a368f" configVersion="02de262782a4d14a97cb4ebf66a5703600000000"/>
+		<Metadata name="Catalog.ТелеграмФрагменты.Form.ФормаСписка.Form" id="c054bc07-bf3f-4a9b-92a9-25d3c11a368f.0" configVersion="be7c3c24f07abf42b3e8e24150c7281700000000"/>
+		<Metadata name="Catalog.ТелеграмФрагменты.Form.ФормаЭлемента" id="e44bf6b5-8172-4c57-b621-7b5ee77a5b7c" configVersion="dc21c975b91b464cb6720e1d2f9c582d00000000"/>
+		<Metadata name="Catalog.ТелеграмФрагменты.Form.ФормаЭлемента.Form" id="e44bf6b5-8172-4c57-b621-7b5ee77a5b7c.0" configVersion="fd2ee5e15bb58f4987ca22223fb73ac000000000"/>
+		<Metadata name="Catalog.ТелеграмФрагменты.Help" id="a08706a3-e89e-44a8-b803-a523865aaad9.1" configVersion="442c44908f45d0478d5bee5e432403c200000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи" id="48f27f0d-b25f-48cf-bb55-f5d08d58cc2b" configVersion="a06788b2252d6f42a2c9c594f132fea500000000">
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.Автонаименование" id="12573a7e-a301-4960-bfe3-a8b00496e5cc"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.пИмя" id="16412ff4-781c-4504-acc7-172b9feb8b60"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.Ид" id="164f596f-e8fe-4cd7-bc57-58d7e4622a95"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.пИнтернетИмя" id="3a801681-1c2e-463b-b039-1b8c392b35ae"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.чФамилия" id="51709c9b-c69e-455b-83f8-b132a9597a8b"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.TabularSection.Параметры.Attribute.Значение" id="56985f8a-e941-4fac-b77e-fbd2f78cbd54"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.TabularSection.Боты.Attribute.Бот" id="90ad0d9a-b5f3-4168-9e5c-e6a41ae8d1bd"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.пКодЯзыка" id="980d6e27-7ed8-4a0b-b0d3-548d27e1ab0f"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.пЭтоБот" id="9e62d100-9ea6-4af1-9884-7675f9a731fd"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.TabularSection.Параметры.Attribute.Параметр" id="adfde78d-32d7-48b2-9651-b8de59f3bb06"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.TabularSection.Боты" id="b073a0a8-db9f-4e14-a319-12f2fdfaf0dd"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.TabularSection.Параметры" id="c9aa7622-2a3f-49fa-b923-c396cd86ec5a"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.чЗаголовок" id="dc6ddb9d-55bf-4ee1-8e50-9673764927ef"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.пФамилия" id="de82a9c7-615c-40ad-8dc0-8dea9ee99ca4"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.чИнтернетИмя" id="e5a682bb-8883-4a85-80ab-e329da1bb103"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.чИмя" id="ead121a0-bc71-41a2-9826-420abf52bce1"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.Комментарий" id="f6cbcb27-c4ed-4211-a5ce-6d1121db0175"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователи.Attribute.чТип" id="f80bce02-dfa3-4d90-9dbc-9916370531b7"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.Form.ФормаВыбора" id="400702d3-98b6-43ee-a66e-cbb1502d0ad6" configVersion="d16fa5fe5ba2a241ab1c7e20c34ebae100000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.Form.ФормаВыбора.Form" id="400702d3-98b6-43ee-a66e-cbb1502d0ad6.0" configVersion="aed28e4865fd7a4d89fbe0b38a659baf00000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.Form.ФормаСписка" id="7c3ae303-bb93-4c43-be1f-16fa5ce23f38" configVersion="9b3708e55600a94abafbd7296fe53c2b00000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.Form.ФормаСписка.Form" id="7c3ae303-bb93-4c43-be1f-16fa5ce23f38.0" configVersion="4f858b2af9fd45449b975f27667b5f7700000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.Form.ФормаЭлемента" id="e309e201-02aa-417f-a2de-21370adaab44" configVersion="af7dd3b2ce6ed14f894f1e9e4ef5d2fb00000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.Form.ФормаЭлемента.Form" id="e309e201-02aa-417f-a2de-21370adaab44.0" configVersion="493a9d32122f594796252a978ce0a4f000000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.Help" id="48f27f0d-b25f-48cf-bb55-f5d08d58cc2b.1" configVersion="83e4da3562771d4fb9f434eb665fb50000000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.ManagerModule" id="48f27f0d-b25f-48cf-bb55-f5d08d58cc2b.3" configVersion="4b98e8700fc28245a74332b01b16090500000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователи.ObjectModule" id="48f27f0d-b25f-48cf-bb55-f5d08d58cc2b.0" configVersion="8031e071d32d3a40a32c84cf80c0c9aa00000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы" id="d328ec19-ed59-4541-8ec6-98d2ee087c5a" configVersion="b89715e805e40945ac9f6a18d70cb42900000000">
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ИмяФайлаПодписи" id="019ef4b4-3474-4d59-a01c-bb8a537b7b74"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Том" id="0446e2ad-05c2-483e-af01-ae7bb23f7281"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ПодписанЭП" id="0ee24c39-460c-49c0-b485-b648615b88ed"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПроверкиПодписи" id="14e7f361-0916-4fa8-b03c-780afe26d150"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Отпечаток" id="2e55c134-29f4-4c95-a644-f9677ffc2cd7"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ХранитьВерсии" id="2ec76450-1179-480e-af0b-7c5a88f7735f"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Расширение" id="3ab50af5-f397-445a-8543-7d6a60626543"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи" id="3dcb30f7-6e70-48e9-8bed-ebc8af71a215"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ДатаМодификацииУниверсальная" id="3df71277-91ba-4d84-be46-d6f49cde933b"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Изменил" id="42b740e3-7356-49e8-902b-24c2d17fabb8"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Сертификат" id="45386062-543b-44a0-820a-7c675e63f6ab"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ПутьКФайлу" id="4680fb2a-0357-4f2e-8ef3-d0848902476f"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.УстановившийПодпись" id="56333378-834a-4bb3-9fd9-b5183e726531"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Зашифрован" id="672eb741-0127-4415-8db3-c1315ae7444c"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования" id="69c3f2be-6807-4c7c-8305-89ce9a8054b0"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ФайлХранилище" id="6abbbea9-2bf3-4512-ab0e-bc46806bb2f5"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Размер" id="7a6f7e0d-ea53-45db-8b89-cd76682799fc"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ИндексКартинки" id="7fc08e07-a7ce-4fa7-86e0-f301b36a0192"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Представление" id="7fda57cd-5132-46bd-8ca3-0bd4e3d3dedc"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Автор" id="80684f8b-0ba8-42d6-96e7-914c04194a48"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ДатаСоздания" id="8684ac83-1c04-4fd1-8dc6-0f47b60c19fd"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ВладелецФайла" id="8d0a584c-7320-49f7-99f9-afc37133bd7c"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Отпечаток" id="8d7d387a-4225-4905-8548-4bb54be74f17"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Комментарий" id="8dd75a01-0e89-45fc-9796-0a8cb2ff5ee4"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Описание" id="9451ff86-9148-47c9-9d32-babb71fb1f65"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи" id="96b2e105-2a97-4436-96c4-0d8d427f0f42"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ДатаЗаема" id="a00b6d76-b56f-41d3-932f-bd2ef41e0788"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ТекстХранилище" id="b75673a8-6fc2-418b-8296-f1af8ba70dd6"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.Редактирует" id="b8cc4805-78b6-4e44-b323-ddb3e562b2bd"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.СтатусИзвлеченияТекста" id="c293dd13-f3bb-4200-a15e-65e45e2b07c2"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.КомуВыданСертификат" id="d61cb729-3bd1-4c94-8b25-33f7131f0ac0"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна" id="fb9ef735-c2ed-4333-a848-12ae92da23df"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.Attribute.ТипХраненияФайла" id="fc5e4405-c674-49ad-8cdf-0a343bb40b35"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись" id="fcda4bc9-68f9-4e9e-91cc-067fedf167f9"/>
+			<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Сертификат" id="fe2cde26-9b26-4f2c-81eb-b1f14c930ed1"/>
+		</Metadata>
+		<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.ManagerModule" id="d328ec19-ed59-4541-8ec6-98d2ee087c5a.3" configVersion="f63791a87af4724b8ddf5a0894d9390f00000000"/>
+		<Metadata name="Catalog.ТелеграмЧатыПользователиПрисоединенныеФайлы.ObjectModule" id="d328ec19-ed59-4541-8ec6-98d2ee087c5a.0" configVersion="cff692a93ea7924e88b3630dba096be700000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры" id="365b9511-41b9-4d8b-9b9c-b75dce69770a" configVersion="563773aafdd4f549a7456bc4ccf8426b00000000">
+			<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Attribute.ИсточникЗначения" id="9a954efd-58db-48d6-86ce-cb0919e73c0b"/>
+			<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Attribute.Описание" id="bea2c421-df31-4388-ad5f-b3322ecf245c"/>
+			<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Attribute.Бот" id="f2491fb6-5c48-4e00-aae7-666cf4729849"/>
+		</Metadata>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.УдалитьФормаСписка" id="08ce916f-59fc-43f9-b049-490192e9835d" configVersion="078c9b50918e4047a2b3ca46bb4b261c00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.УдалитьФормаСписка.Form" id="08ce916f-59fc-43f9-b049-490192e9835d.0" configVersion="ca50674bb22de24abb664ce5e3570d7700000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.ФормаВыбора" id="e56461d1-e53e-4d36-bf25-f85cec89155b" configVersion="6ff495e14a0549478b6807824532c9d700000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.ФормаВыбора.Form" id="e56461d1-e53e-4d36-bf25-f85cec89155b.0" configVersion="5c0a72d3fe1f8c4bb9f6ba5fdf76bd6300000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.ФормаСписка" id="dd6e15e7-2d60-4151-9b0f-b67f2b331915" configVersion="aff0f0091f2e05469ad4e68e68d7005f00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.ФормаСписка.Form" id="dd6e15e7-2d60-4151-9b0f-b67f2b331915.0" configVersion="8b4af1b1a447e04fa7dcdba9149830a700000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.ФормаЭлемента" id="6bed787b-79dd-4d02-95f5-c172edca9b2e" configVersion="9e1098da1f0f844db56227cafae7ac6a00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Form.ФормаЭлемента.Form" id="6bed787b-79dd-4d02-95f5-c172edca9b2e.0" configVersion="22bfc4373e057c44a0e49e624b632a9100000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Help" id="365b9511-41b9-4d8b-9b9c-b75dce69770a.5" configVersion="bfe242f86948f5419534819b927b09fa00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.ManagerModule" id="365b9511-41b9-4d8b-9b9c-b75dce69770a.16" configVersion="2007767cbb596f46bd79d7698e89f38c00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.ObjectModule" id="365b9511-41b9-4d8b-9b9c-b75dce69770a.15" configVersion="8462a34fdbc90a4aaa10fca489cf0ffa00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Template.СтрокаXML" id="256fa51a-17fa-4e81-96a8-42ee747263db" configVersion="eb594fc2a2db7547887f7dc247acace000000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмПараметры.Template.СтрокаXML.Template" id="256fa51a-17fa-4e81-96a8-42ee747263db.0" configVersion="c7eb576deb68014485dbb2250fd01c0600000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия" id="6b8c6a5c-705f-44fb-9fda-e39bd6ba95b0" configVersion="167061159793e4449c25af7928ab4afd00000000">
+			<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Attribute.КодОтвета" id="b40ba989-f627-4736-947c-b16e6fecfb5d"/>
+			<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Attribute.Описание" id="bf92e834-6b9b-413c-a3c9-14eb4ec349a2"/>
+		</Metadata>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ПроверкаПараметраНаЗначение" id="558b6a61-12e3-4029-8495-e08e4df5b30a" configVersion="de35eb2c2cc39047901251bc9579d9e200000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ПроверкаПараметраНаЗначение.Form" id="558b6a61-12e3-4029-8495-e08e4df5b30a.0" configVersion="bdf219a1ac7def488f50c43842a158db00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаВыбора" id="65d5825d-0a5b-40b1-b232-0ad9418766a1" configVersion="df34f387eeae7541a875b55a61f1229200000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаВыбора.Form" id="65d5825d-0a5b-40b1-b232-0ad9418766a1.0" configVersion="13b65c890f921e40b510f713cd3faaf600000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаВыбораГруппы" id="a71cab59-1a40-49e4-9b7f-b3d02e092fd1" configVersion="dec3903efdcc744aa3d1ae36c849823200000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаВыбораГруппы.Form" id="a71cab59-1a40-49e4-9b7f-b3d02e092fd1.0" configVersion="6a4bcae18c495242a87e41233c3671bd00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаГруппы" id="5ae6c45e-82b4-42fb-8e03-e0226eccf4a4" configVersion="380e1b0efa1e934fa4a8902102355c9100000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаГруппы.Form" id="5ae6c45e-82b4-42fb-8e03-e0226eccf4a4.0" configVersion="8c98b8dcd3878c4aadf43123fd425a8200000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаСписка" id="89a6d36d-763b-41c9-8a32-d8d87e35f2de" configVersion="184d33c2dbb2704fbbd776217b5bb1ee00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаСписка.Form" id="89a6d36d-763b-41c9-8a32-d8d87e35f2de.0" configVersion="44719802ff69c2418b181f4e32b8209000000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаЭлемента" id="1fb5e8eb-a241-4bc7-bc4a-65b8ad11c040" configVersion="91e247834ad67145960be53733863ae000000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Form.ФормаЭлемента.Form" id="1fb5e8eb-a241-4bc7-bc4a-65b8ad11c040.0" configVersion="57ba5dc21ef2d34c8b6de588d34521e600000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Help" id="6b8c6a5c-705f-44fb-9fda-e39bd6ba95b0.5" configVersion="994441fc5a7dbc459b9de273f4428d1c00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.ManagerModule" id="6b8c6a5c-705f-44fb-9fda-e39bd6ba95b0.16" configVersion="445d18f72086bc43aa099df533f7acee00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.ObjectModule" id="6b8c6a5c-705f-44fb-9fda-e39bd6ba95b0.15" configVersion="5b4651f2b39dc84f861d7b0c3dd3293200000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Predefined" id="6b8c6a5c-705f-44fb-9fda-e39bd6ba95b0.7" configVersion="e6827dc93e299e4e8567882bc861ddf700000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Template.Подсказка" id="0de38615-2ff6-4522-bfa5-ede95141611e" configVersion="3f9546c72fe3d146a62ee9f4f74c95d500000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ТелеграмУсловия.Template.Подсказка.Template" id="0de38615-2ff6-4522-bfa5-ede95141611e.0" configVersion="63e25f9e25986b42b3d58b3a6dbaa3d000000000"/>
+		<Metadata name="CommandGroup.ТелеграмКоманды" id="980796d7-6cb1-43a0-8f9e-8cfa987e0328" configVersion="bc4ba2555e1c7347898335012ed6b34b00000000"/>
+		<Metadata name="CommonCommand.ТелеграмКонструкторЗапроса" id="d1489953-7857-40fa-81c8-6676977f337c" configVersion="72641008a817dc4e83ea2eb78aae683200000000"/>
+		<Metadata name="CommonCommand.ТелеграмКонструкторЗапроса.CommandModule" id="d1489953-7857-40fa-81c8-6676977f337c.2" configVersion="18aa1dd1d1355b4da93c08e7e3668afc00000000"/>
+		<Metadata name="CommonCommand.ТелеграмКонструкторФорматнойСтроки" id="975ba8fc-86b1-4c9b-9093-7e54236c28c8" configVersion="627a09effc8d824ebc281761c6cd737900000000"/>
+		<Metadata name="CommonCommand.ТелеграмКонструкторФорматнойСтроки.CommandModule" id="975ba8fc-86b1-4c9b-9093-7e54236c28c8.2" configVersion="5829c1bb14aead468b4f7b42146f62b100000000"/>
+		<Metadata name="CommonCommand.ТелеграмСправка" id="2a6b76fe-7656-4cac-b712-5b9bf15fd241" configVersion="9a621597bf8a5142826b818022db052500000000"/>
+		<Metadata name="CommonCommand.ТелеграмСправка.CommandModule" id="2a6b76fe-7656-4cac-b712-5b9bf15fd241.2" configVersion="1b875d203c9741419461d759f943422200000000"/>
+		<Metadata name="CommonModule.ТелеграмКлиент" id="72a5463b-4d28-4514-935a-cc60db298036" configVersion="fc7184a7895a72498400a05b05019db400000000"/>
+		<Metadata name="CommonModule.ТелеграмКлиент.Module" id="72a5463b-4d28-4514-935a-cc60db298036.0" configVersion="65f477ae14c3ac4b954eacba495dc2ec00000000"/>
+		<Metadata name="CommonModule.ТелеграмСервер" id="14dd409e-1213-42c8-9718-fe20ccd92794" configVersion="7bbf9699659d3d46bc9cc700247fd5c600000000"/>
+		<Metadata name="CommonModule.ТелеграмСервер.Module" id="14dd409e-1213-42c8-9718-fe20ccd92794.0" configVersion="ce7f773dddd618428eece7c15a9fb69100000000"/>
+		<Metadata name="CommonModule.ТелеграмСерверПовтИсп" id="48842d2a-96b0-467a-be81-0e73650c1108" configVersion="3e5768729b4a494fa7d02d60485084c000000000"/>
+		<Metadata name="CommonModule.ТелеграмСерверПовтИсп.Module" id="48842d2a-96b0-467a-be81-0e73650c1108.0" configVersion="2609c46344bd284598b1a16129a3ae9f00000000"/>
+		<Metadata name="CommonPicture.ТелеграмВажностьВысокая" id="f4e80ca0-9bdb-41af-943f-bfd184e6b367" configVersion="d856752e8944bf44a1308057e6750d8f00000000"/>
+		<Metadata name="CommonPicture.ТелеграмВажностьВысокая.Picture" id="f4e80ca0-9bdb-41af-943f-bfd184e6b367.0" configVersion="3989b8ed96a69840b3876e82c72f1f7c00000000"/>
+		<Metadata name="CommonPicture.ТелеграмЗеленыйШар" id="d5ee66f6-1832-4f5a-b6cc-94c7ae98b3e1" configVersion="5a03ed976e493246bdf8689e024d748600000000"/>
+		<Metadata name="CommonPicture.ТелеграмЗеленыйШар.Picture" id="d5ee66f6-1832-4f5a-b6cc-94c7ae98b3e1.0" configVersion="32a54eebef4f9b4f896f10e5b146bacf00000000"/>
+		<Metadata name="CommonPicture.ТелеграмИнформация" id="e47c449a-0c07-41c1-a1d9-a5af521ce16f" configVersion="fbb1e92e01c75e47b416f40c601614af00000000"/>
+		<Metadata name="CommonPicture.ТелеграмИнформация.Picture" id="e47c449a-0c07-41c1-a1d9-a5af521ce16f.0" configVersion="e5bd3a3ff6c43c41861d34aa1fac923900000000"/>
+		<Metadata name="CommonPicture.ТелеграмКопировать" id="12920a3e-89e6-4941-a86c-bd5fa03c87f8" configVersion="9d6fa88d6dfed74e8c9c7ee861f1f7dd00000000"/>
+		<Metadata name="CommonPicture.ТелеграмКопировать.Picture" id="12920a3e-89e6-4941-a86c-bd5fa03c87f8.0" configVersion="e35e19fc38e7464b8fb8ef8bf52704cd00000000"/>
+		<Metadata name="CommonPicture.ТелеграмКрасныйШар" id="b733350d-3577-48bf-a021-4af10617e850" configVersion="77e23ce0067e724485bcf48cf4ab082f00000000"/>
+		<Metadata name="CommonPicture.ТелеграмКрасныйШар.Picture" id="b733350d-3577-48bf-a021-4af10617e850.0" configVersion="9f29483e3c24d64da87500a83a9d224300000000"/>
+		<Metadata name="CommonPicture.ТелеграмЛоготип16" id="b465b193-f78b-4da1-8b08-8ff11725976a" configVersion="091d641429b1b5449392c36ad6f81bf600000000"/>
+		<Metadata name="CommonPicture.ТелеграмЛоготип16.Picture" id="b465b193-f78b-4da1-8b08-8ff11725976a.0" configVersion="7b22a30ffe06154faab68bd10cb9104300000000"/>
+		<Metadata name="CommonPicture.ТелеграмЛоготип32" id="25f83dc9-ab82-42c1-a174-0a7330c479b9" configVersion="5e412a31cb18624e8f12bd511cf439df00000000"/>
+		<Metadata name="CommonPicture.ТелеграмЛоготип32.Picture" id="25f83dc9-ab82-42c1-a174-0a7330c479b9.0" configVersion="004774a9f796684d9350b8ca7572bc4100000000"/>
+		<Metadata name="CommonPicture.ТелеграмПиктограммыЭлементов" id="e2651352-24a8-4838-ab96-e1c22e6c640d" configVersion="6e024e2eec06d54b8a3420ba8693119900000000"/>
+		<Metadata name="CommonPicture.ТелеграмПиктограммыЭлементов.Picture" id="e2651352-24a8-4838-ab96-e1c22e6c640d.0" configVersion="09523359b16f0349941ee51e4d721cdd00000000"/>
+		<Metadata name="CommonPicture.ТелеграмЭмодзи" id="755f2a7e-7040-4d93-8332-becb316642f7" configVersion="48f33c498ca1ea409b044158ea3ae15d00000000"/>
+		<Metadata name="CommonPicture.ТелеграмЭмодзи.Picture" id="755f2a7e-7040-4d93-8332-becb316642f7.0" configVersion="d4a614960ce2ac44a901b7e7f89abcfe00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="d0de1f4d-d3e6-4914-9d9e-5b3d8ffb5c33" configVersion="8e9433341377e641959ea901f8bc733c00000000"/>
+		<Metadata name="Constant.ТелеграмТекущаяВерсия" id="2fb2f4cd-f36f-40ca-b58a-dfe8c8b09d68" configVersion="531bd1c17bb73044987cd08dc37d22ab00000000"/>
+		<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений" id="ac8ce8ee-236c-4446-923f-0a6b6ed68de6" configVersion="c88397395669ca4faad9a34736382ca500000000">
+			<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Attribute.ВыводитьСообщения" id="1c992770-0a78-4f38-9807-ed626adf5e01"/>
+			<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Attribute.Режим" id="3970dc5c-4f1b-49aa-ab64-d2dd4a910ccd"/>
+			<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Attribute.БлокироватьЗакрытиеФормы" id="7f034bca-1cc8-4da6-bc23-ed64d1f8ffc5"/>
+			<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Attribute.Бот" id="a8e7b4ee-3450-4e72-9036-b9a368b9fb36"/>
+			<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Command.ТелеграмПолучениеОбновлений" id="d527df50-8ff1-4aca-9452-68bfae4c73ce"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Command.ТелеграмПолучениеОбновлений.CommandModule" id="d527df50-8ff1-4aca-9452-68bfae4c73ce.2" configVersion="da5d29b571051e44984f91b872c0857300000000"/>
+		<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Form.Форма" id="6965d1e6-20ee-4632-8f7f-e5296ad36468" configVersion="d4156aafb145984eb8ccf746050797db00000000"/>
+		<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Form.Форма.Form" id="6965d1e6-20ee-4632-8f7f-e5296ad36468.0" configVersion="b049d2fb21009c40ae6e853d08e809a700000000"/>
+		<Metadata name="DataProcessor.ТелеграмПолучениеОбновлений.Help" id="ac8ce8ee-236c-4446-923f-0a6b6ed68de6.1" configVersion="06134c2fdabd2d48a0b988e5cd8e27cc00000000"/>
+		<Metadata name="Enum.ТелеграмВидыКлавиатуры" id="33e79a75-ae43-449c-96e6-2303351faab0" configVersion="e1083f17a17cf0438b55c309521c168f00000000">
+			<Metadata name="Enum.ТелеграмВидыКлавиатуры.EnumValue.Стандартная" id="9dc7be6c-3864-4425-b5af-d8dd81e12f3e"/>
+			<Metadata name="Enum.ТелеграмВидыКлавиатуры.EnumValue.Контекстная" id="d401ad86-ab79-4b6d-9e0c-7f753a1bdd86"/>
+		</Metadata>
+		<Metadata name="Enum.ТелеграмВидыСравнения" id="1a212c82-e36a-4960-a2ca-bbe84d0ef9d7" configVersion="4e558f7ba9e0774497805f682ebb27bd00000000">
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.НачинаетсяС" id="5baf90fc-dc22-432c-8564-cbc391875833"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.НеСодержит" id="666bc14d-03d2-4ab2-9591-7634339c7451"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.Меньше" id="6ad335ee-83e6-4294-87d8-c428db181fac"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.МеньшеИлиРавно" id="6b5869d3-b730-4b70-a095-622ce71cde1a"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.Равно" id="9559a504-58f0-43d6-8af1-cbd0011db8a3"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.НеНачинаетсяС" id="a855dba6-f340-4505-8cb7-78da4eb101a9"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.Содержит" id="a90dafc8-27fc-4a50-9ba5-929d86e0be31"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.Заполнено" id="bf73dd86-4161-4985-acee-5de6da19127d"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.БольшеИлиРавно" id="c0587bcb-f878-43dd-90d0-a0405e4043b5"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.Больше" id="da01b01e-6d4d-4889-8e42-88aaf6904a27"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.НеЗаполнено" id="dc4850ca-1207-4480-98d7-49653469fb33"/>
+			<Metadata name="Enum.ТелеграмВидыСравнения.EnumValue.НеРавно" id="fc7746c8-5872-4118-8f74-9df5f77dfb10"/>
+		</Metadata>
+		<Metadata name="Enum.ТелеграмВидыСравнения.ManagerModule" id="1a212c82-e36a-4960-a2ca-bbe84d0ef9d7.0" configVersion="2d9a223fe883874bb513a0b52bd7a11500000000"/>
+		<Metadata name="Enum.ТелеграмЛогическиеГруппы" id="ee5682ae-1427-4a74-99f9-133e21f838ba" configVersion="34fb0b7b8d8b4c49af31c14a7acc3a9100000000">
+			<Metadata name="Enum.ТелеграмЛогическиеГруппы.EnumValue.ГруппаИли" id="3bfcb61b-b201-4282-b226-0e8120c96bc2"/>
+			<Metadata name="Enum.ТелеграмЛогическиеГруппы.EnumValue.ГруппаИ" id="ae512c61-402f-4d1e-b234-84cef8ec051d"/>
+		</Metadata>
+		<Metadata name="Enum.ТелеграмСобытияЖурнала" id="e0d4779d-a391-4b33-b7b2-2f87c28be1df" configVersion="5646d7e8c7ca4448a4c501a6886920c200000000">
+			<Metadata name="Enum.ТелеграмСобытияЖурнала.EnumValue.ВыполненаОбработка" id="2c8d99ef-8552-40e8-8848-791d1e542619"/>
+			<Metadata name="Enum.ТелеграмСобытияЖурнала.EnumValue.ВыполненМетод" id="a6a5dd0b-2f35-4f82-a8f6-791b9383e350"/>
+			<Metadata name="Enum.ТелеграмСобытияЖурнала.EnumValue.ЖурналОчищен" id="b99d3cc5-42d0-437d-8843-44350cab9d24"/>
+			<Metadata name="Enum.ТелеграмСобытияЖурнала.EnumValue.Вебхук" id="e9dcf301-6f8d-45c6-b9e8-289562e7874d"/>
+		</Metadata>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки" id="8aee8806-f0cc-4ab5-a97f-07313a22010e" configVersion="661e22dccfe9724399e0e16ae7ca39d100000000">
+			<Metadata name="Enum.ТелеграмСпециальныеОбработки.EnumValue.ОшибкаВКоде" id="4d5db4f8-cad7-4d5e-959a-b006ec25496c"/>
+			<Metadata name="Enum.ТелеграмСпециальныеОбработки.EnumValue.ОграниченныйДоступ" id="83cba594-6ac0-43b2-bcb9-625fe890d1e6"/>
+			<Metadata name="Enum.ТелеграмСпециальныеОбработки.EnumValue.ПередВыполнением" id="8aa3fdf7-4e42-4f15-88c4-fae842ac1665"/>
+			<Metadata name="Enum.ТелеграмСпециальныеОбработки.EnumValue.ПослеВыполнения" id="8ecf690e-87c3-4062-a5a1-52b03989927a"/>
+			<Metadata name="Enum.ТелеграмСпециальныеОбработки.EnumValue.ЗакрытДоступ" id="c21c1ee3-d8e0-4f9c-8856-9d1030f7360a"/>
+			<Metadata name="Enum.ТелеграмСпециальныеОбработки.EnumValue.ОткрытДоступ" id="cdc78c96-9c3d-4855-9fe1-0f276a069fd6"/>
+		</Metadata>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Form.ФормаВыбора" id="376aaed2-a3b9-4953-91af-a08938ce3733" configVersion="b0b41566c0817443b5f26b7a7598860300000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Form.ФормаВыбора.Form" id="376aaed2-a3b9-4953-91af-a08938ce3733.0" configVersion="ee69b8c7ffbd9a4c81ae57d532013d8000000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.ManagerModule" id="8aee8806-f0cc-4ab5-a97f-07313a22010e.0" configVersion="49e03280ef79544a9419ec2eb2f9409500000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ЗакрытДоступ" id="62ac6b16-a680-422b-ba48-e80ef48deb90" configVersion="479820f65f56154f833b336f1e5c9c3600000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ЗакрытДоступ.Template" id="62ac6b16-a680-422b-ba48-e80ef48deb90.0" configVersion="d9eedf3dc509934088fdd20787b7a85a00000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ОграниченныйДоступ" id="9309d3de-d05d-48a2-ac5d-61776638b0b1" configVersion="4524dacaa6311c4da7bd6e3a7a49e07200000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ОграниченныйДоступ.Template" id="9309d3de-d05d-48a2-ac5d-61776638b0b1.0" configVersion="031b3dd7fba8ed42b4eaf8272124a22400000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ОткрытДоступ" id="513e6bb7-e6ee-4c37-be8c-fb3f4131585b" configVersion="34c7c61020812545886e9fede9bfe8e200000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ОткрытДоступ.Template" id="513e6bb7-e6ee-4c37-be8c-fb3f4131585b.0" configVersion="d2b242d2ad5fb840b14ad1b520ec992000000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ОшибкаВКоде" id="5c3b5c3b-d9a0-48d3-83b4-722bed9504b6" configVersion="42c3dbf55ae5cd4f98cb6888cea024c900000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ОшибкаВКоде.Template" id="5c3b5c3b-d9a0-48d3-83b4-722bed9504b6.0" configVersion="193fa44b301f414d8c9d5f544c4c551c00000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ПередВыполнением" id="a6d5b07e-3989-4b8e-a989-5f3caef34a46" configVersion="5914192dab492849ba677b971114b0f200000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ПередВыполнением.Template" id="a6d5b07e-3989-4b8e-a989-5f3caef34a46.0" configVersion="333af7af31311245bb481a72e7698a7e00000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ПослеВыполнения" id="36c7ae50-3bd4-49df-a53e-2b1d6e190497" configVersion="d2d2670f664eb04bb555fa9cfd79ebf000000000"/>
+		<Metadata name="Enum.ТелеграмСпециальныеОбработки.Template.ПослеВыполнения.Template" id="36c7ae50-3bd4-49df-a53e-2b1d6e190497.0" configVersion="04477f383bbcb34bbfb307d0dbaedade00000000"/>
+		<Metadata name="Enum.ТелеграмСпособыЗапросов" id="3972eee6-26d5-4e3e-9fcc-7c6cd0a1f4f6" configVersion="3f46b256362bb944bfd84ca7fb3fdd4300000000">
+			<Metadata name="Enum.ТелеграмСпособыЗапросов.EnumValue.Encoded" id="39bc28b5-4c00-489d-ae16-aceca61a877a"/>
+			<Metadata name="Enum.ТелеграмСпособыЗапросов.EnumValue.JSON" id="c5217600-166c-43a8-ac1d-de1e3b149122"/>
+			<Metadata name="Enum.ТелеграмСпособыЗапросов.EnumValue.Multipart" id="dc103c07-50ba-48f3-a38e-de89a7135c08"/>
+			<Metadata name="Enum.ТелеграмСпособыЗапросов.EnumValue.URL" id="e8125939-e139-46eb-815d-06f32c60e5aa"/>
+		</Metadata>
+		<Metadata name="Enum.ТелеграмСпособыСвязи" id="ed6dacb1-a0bf-4708-b782-f67f7286e2c8" configVersion="c2902bfdba4c464cbfd68bc9e0e1fcea00000000">
+			<Metadata name="Enum.ТелеграмСпособыСвязи.EnumValue.РегламентноеЗадание" id="4bde0881-907a-4d4b-8ddc-3f6fb1c36895"/>
+			<Metadata name="Enum.ТелеграмСпособыСвязи.EnumValue.Вебхук" id="4e0d7cea-209a-4d09-989b-e4b419058ad2"/>
+			<Metadata name="Enum.ТелеграмСпособыСвязи.EnumValue.ОбработчикОжидания" id="bee3621d-d803-474b-b693-f8f6c9aec416"/>
+			<Metadata name="Enum.ТелеграмСпособыСвязи.EnumValue.Вручную" id="f9313452-7fc9-414d-b21d-4418db55d7d7"/>
+		</Metadata>
+		<Metadata name="HTTPService.ТелеграмВебхук" id="768f4521-3393-490e-aa8b-79de3b27d10a" configVersion="c619e1aadd569146b44469a88aa4a19d00000000">
+			<Metadata name="HTTPService.ТелеграмВебхук.URLTemplate.Любой.Method.Post" id="95efbcd4-6eae-47c4-a2bf-0c51bda59ec1"/>
+			<Metadata name="HTTPService.ТелеграмВебхук.URLTemplate.Любой" id="dc8d68f5-8c4e-4cff-8e7a-c9624c7b571f"/>
+			<Metadata name="HTTPService.ТелеграмВебхук.URLTemplate.Любой.Method.Get" id="e87e7f22-1fe5-4f49-8851-830a067a77ef"/>
+		</Metadata>
+		<Metadata name="HTTPService.ТелеграмВебхук.Module" id="768f4521-3393-490e-aa8b-79de3b27d10a.0" configVersion="2b44cee989ec1849b06883511e74f77300000000"/>
+		<Metadata name="InformationRegister.ТелеграмЖурнал" id="3004e7b0-70dd-4460-b668-3f5606575d77" configVersion="34d5211e4af74a4fa684835c503c77d800000000">
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Ошибка" id="1cb3bc0b-a557-4136-b6ca-93f55aa2bd17"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.СпособСвязи" id="2b0c59b5-1c4d-4a1c-8012-c155adc42251"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Дата" id="2cdea527-6391-44e4-a91f-62ff0c30a180"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Сервис" id="35a21a2d-e96f-4501-8e1c-b4026ef950d5"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Пользователь" id="521cecf5-ecb5-44d9-aaa6-81f8392509e2"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Обработка" id="55b4c50e-1c24-4e1b-9628-5352c7e4e82d"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Dimension.НомерПП" id="61962858-dd91-45cc-92a3-6a08a7ed9d19"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Attribute.ОписаниеОшибки" id="72329e0f-20cf-4d4d-a4f2-aa923aef68ca"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Пояснение" id="816e12c1-5119-409d-9ae9-6fd781804223"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.ОшибкаТ" id="8be9d913-e083-457f-b305-1828e7d73a49"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Событие" id="9629deec-1c27-4449-9e35-70e1a7bab67a"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Dimension.Бот" id="a33b358d-d7d6-47aa-ba97-57ae53da8095"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Пусто" id="c8d028af-291a-44ff-b3b8-3f7c3e4d0d0a"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Чат" id="ce7b2b30-9954-4977-9ea0-0606d13f1a9f"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.Метод" id="da7a9ce1-825b-4fad-b54e-c2aff07c4f9e"/>
+			<Metadata name="InformationRegister.ТелеграмЖурнал.Resource.ОтветСервера" id="f0ef8f5e-325e-4d94-9ea2-2749826eb770"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмЖурнал.Form.ФормаЗаписи" id="11ebff46-2d7c-4613-b3ed-24a41be6a894" configVersion="0282d33938860a4db49aece3b65bf05d00000000"/>
+		<Metadata name="InformationRegister.ТелеграмЖурнал.Form.ФормаЗаписи.Form" id="11ebff46-2d7c-4613-b3ed-24a41be6a894.0" configVersion="0339cf17d9b6654bab251a58378aa55400000000"/>
+		<Metadata name="InformationRegister.ТелеграмЖурнал.Form.ФормаСписка" id="de48045d-7d3b-467c-ab25-89db07090d27" configVersion="0358c6db66cbd446b10f8c493566a11000000000"/>
+		<Metadata name="InformationRegister.ТелеграмЖурнал.Form.ФормаСписка.Form" id="de48045d-7d3b-467c-ab25-89db07090d27.0" configVersion="a03309e56432364ea7ce5f1f0b42ca7700000000"/>
+		<Metadata name="InformationRegister.ТелеграмЖурнал.Help" id="3004e7b0-70dd-4460-b668-3f5606575d77.0" configVersion="ccf64b4400f1ae4b884952094b5a1cda00000000"/>
+		<Metadata name="InformationRegister.ТелеграмЖурнал.ManagerModule" id="3004e7b0-70dd-4460-b668-3f5606575d77.2" configVersion="48ef78875563964ea3a42eb0bce61f3f00000000"/>
+		<Metadata name="InformationRegister.ТелеграмЗначенияПараметров" id="10c60c24-3b7e-4ee3-b40d-787ead8ab7fc" configVersion="8d95c209e27b3c418ea62217113adf6d00000000">
+			<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.Attribute.ХранилищеЗначения" id="93207b70-6ae5-4be5-8659-17f92d064907"/>
+			<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.Dimension.ЧатПользователь" id="e9d19308-5cfe-41d3-956a-18d5bd692bc8"/>
+			<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.Dimension.Параметр" id="fe1f8993-3926-4884-b92e-9a8d4b1e7226"/>
+			<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.Resource.Значение" id="fe25f99b-4352-49de-8824-43aaf5f2be1f"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.Form.ФормаСписка" id="99bcdb6b-6508-4795-b702-6a9a6b600e5d" configVersion="6e2fa2bf92168a47a5e2e8fdeb51743800000000"/>
+		<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.Form.ФормаСписка.Form" id="99bcdb6b-6508-4795-b702-6a9a6b600e5d.0" configVersion="5ec9b525ebe7014a916eafcb616e89e700000000"/>
+		<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.Help" id="10c60c24-3b7e-4ee3-b40d-787ead8ab7fc.0" configVersion="a4f872c0b571d149a5b2173b9c5cb1d700000000"/>
+		<Metadata name="InformationRegister.ТелеграмЗначенияПараметров.ManagerModule" id="10c60c24-3b7e-4ee3-b40d-787ead8ab7fc.2" configVersion="45b3efef6cc07e46b0efa1c4fb91cf8900000000"/>
+		<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов" id="3b78825c-df10-440b-86ec-a52f5d68ab73" configVersion="315a2a6c2ab01a45b54daf49f2fdb33f00000000">
+			<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Resource.ДатаСледующейПроверки" id="4f89ee35-b045-4a35-9178-406cbee21f46"/>
+			<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Attribute.ОтветСервера" id="6eb6e389-5e9e-4b8a-a98c-400d3be0ca7f"/>
+			<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Dimension.КонтрольнаяСумма" id="6ebb0895-8bb2-4367-bc8b-d96bcdf6c1f7"/>
+			<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Dimension.Бот" id="7993dcf8-cecd-4bef-a348-f8f4fe2aca63"/>
+			<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Resource.Идентификатор" id="84d8ee64-b51b-4709-844d-67e8026d5d50"/>
+			<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Resource.ДатаДобавления" id="933ac559-87e6-4645-9e1a-07596c165b1d"/>
+			<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Dimension.Параметр" id="a6e1e03a-8db1-4293-8cbb-3157b1be15c2"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Form.ФормаЗаписи" id="2b5c74db-5969-4713-ac5b-a337e3bd86c0" configVersion="e6643f682a23fb4a87aa4f2875b748cd00000000"/>
+		<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Form.ФормаЗаписи.Form" id="2b5c74db-5969-4713-ac5b-a337e3bd86c0.0" configVersion="1605ea8d15afc24fa86faea278fe78d800000000"/>
+		<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Form.ФормаСписка" id="17151d24-e36f-441a-981e-686cdb906a3a" configVersion="feb541c201d56a43975ef2f242e3adc000000000"/>
+		<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Form.ФормаСписка.Form" id="17151d24-e36f-441a-981e-686cdb906a3a.0" configVersion="cad95adf33eba94690df6e3387250c7a00000000"/>
+		<Metadata name="InformationRegister.ТелеграмИдентификаторыФайлов.Help" id="3b78825c-df10-440b-86ec-a52f5d68ab73.0" configVersion="04e5959f65f79a4fb552a71b0413e78900000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды" id="50064d71-8ab3-452a-8b3c-3934bc2043b4" configVersion="f19807cc3f151a45bbfb67fc585ebd3500000000">
+			<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Resource.Сортировка" id="5f01a120-3367-400b-a9de-88e59bc643e9"/>
+			<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Resource.ИмяКнопки" id="b143184f-77b0-49fc-98fd-c0ccb705e03a"/>
+			<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Dimension.Метод" id="f8482c4f-0120-4a64-9054-07fd39830a37"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Form.ФормаЗаписи" id="6809d2a6-aa21-44d8-aeeb-cba3d7b2ac59" configVersion="d36cbca479dbbb4b977c93a66511a3a200000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Form.ФормаЗаписи.Form" id="6809d2a6-aa21-44d8-aeeb-cba3d7b2ac59.0" configVersion="b1589c9eeeeb844fac38b27fb45a596100000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Form.ФормаСписка" id="4cfaca6c-2069-491c-ac53-d008a2146ac8" configVersion="7e950166178ef242a077c9c780af1d9200000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Form.ФормаСписка.Form" id="4cfaca6c-2069-491c-ac53-d008a2146ac8.0" configVersion="b02282e72e897b48b2893487e56b06ac00000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеМетоды.Help" id="50064d71-8ab3-452a-8b3c-3934bc2043b4.0" configVersion="f574851d69dfd040aaa7a00512ff403a00000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты" id="a630fca5-100e-44ea-9db8-542c339b98c3" configVersion="923a6fb038738b49b1c92fe7093001c000000000">
+			<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Resource.ИмяКнопки" id="330c1451-3495-4133-a988-b7fbe0a5da8b"/>
+			<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Dimension.Фрагмент" id="49e46f28-958d-4194-a615-b0c1448ab9f7"/>
+			<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Resource.Сортировка" id="a3998c58-862f-4f4b-b368-ca411ba9c4b5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Form.ФормаЗаписи" id="dc30c59d-9b06-4181-baed-51618f57791b" configVersion="c81510633e97844ea8252f52d8bef66500000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Form.ФормаЗаписи.Form" id="dc30c59d-9b06-4181-baed-51618f57791b.0" configVersion="3bb12a8362dff54f805252a7de3b841400000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Form.ФормаСписка" id="bba2a7bc-6913-4452-9adc-c1d7c3455da8" configVersion="2c56fb89187c8845915f438b72a6dbc000000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Form.ФормаСписка.Form" id="bba2a7bc-6913-4452-9adc-c1d7c3455da8.0" configVersion="b26e4d8d7839034e8bde3426e08d612600000000"/>
+		<Metadata name="InformationRegister.ТелеграмИзбранныеФрагменты.Help" id="a630fca5-100e-44ea-9db8-542c339b98c3.0" configVersion="d0e5ee9476232341ac3594ae5144e59800000000"/>
+		<Metadata name="InformationRegister.ТелеграмИнвайты" id="80952fd5-68c1-4f78-acd8-5fbb96ce2dfb" configVersion="0d337df41a0c2143ba53a3e167f8649f00000000">
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Attribute.ДатаАктивации" id="1e809ca3-142d-4c86-a279-9d656a6c411d"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Attribute.КтоАктивировал" id="29cfb345-de0f-42a1-80a0-894112b4cce9"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Attribute.УбратьРазрешения" id="50d83409-1b45-400b-bc7e-f7f8ab7e57f6"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Resource.Активирован" id="58ec7656-90e1-4b1d-b88b-6f721506fd32"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Attribute.КтоВыдал" id="8b051230-84e4-4590-86d7-0d7cb8188fff"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Attribute.ДатаВыдачи" id="8c5385f2-a793-4850-ab0c-86ea94fa5ca3"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Dimension.Инвайт" id="9b4f55b4-830d-4df2-ba40-49c5cc3d9d44"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Attribute.ТекстИнвайта" id="df65aaec-b164-445e-bd74-893a6303a110"/>
+			<Metadata name="InformationRegister.ТелеграмИнвайты.Attribute.ДобавитьРазрешения" id="eb9265e8-e617-4049-90be-c22918e3f8e5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмИнвайты.Form.СгенерироватьИнвайт" id="15958771-6c9d-4b92-a204-e9f75b7e5a7d" configVersion="68ed70c3e4e8fd44aa9e54e7f6a2eb6300000000"/>
+		<Metadata name="InformationRegister.ТелеграмИнвайты.Form.СгенерироватьИнвайт.Form" id="15958771-6c9d-4b92-a204-e9f75b7e5a7d.0" configVersion="f2b0a6c69da958448ed811e13240e07700000000"/>
+		<Metadata name="InformationRegister.ТелеграмИнвайты.Form.ФормаСписка" id="60050923-359f-4a61-bebd-987b312c010c" configVersion="aa0acb45d3b8124a8cdd406b705ea61700000000"/>
+		<Metadata name="InformationRegister.ТелеграмИнвайты.Form.ФормаСписка.Form" id="60050923-359f-4a61-bebd-987b312c010c.0" configVersion="e87abd13ec98ac47a2f8ee98a3cb4ac900000000"/>
+		<Metadata name="InformationRegister.ТелеграмИнвайты.ManagerModule" id="80952fd5-68c1-4f78-acd8-5fbb96ce2dfb.2" configVersion="0b02108744f24b4ba7ad440f56337b7a00000000"/>
+		<Metadata name="InformationRegister.ТелеграмОбъектыПользователей" id="f7f62bf8-9fc6-4714-9ea5-4ff82ecc147d" configVersion="9ec1b101ebb8674e9e3158b059ab0a1200000000">
+			<Metadata name="InformationRegister.ТелеграмОбъектыПользователей.Attribute.ДатаЗагрузки" id="262a3fff-76d1-4c52-ad72-81000add9a77"/>
+			<Metadata name="InformationRegister.ТелеграмОбъектыПользователей.Dimension.Ссылка" id="87970570-d205-4f44-9a19-0a875645ef72"/>
+			<Metadata name="InformationRegister.ТелеграмОбъектыПользователей.Attribute.Бот" id="a0ccb0a1-f5d8-4735-80c7-cd3bcfe15e46"/>
+			<Metadata name="InformationRegister.ТелеграмОбъектыПользователей.Attribute.ЧатПользователь" id="f01b5ee8-7423-4eef-b4ad-e87ce94ab4a7"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмОбъектыПользователей.Help" id="f7f62bf8-9fc6-4714-9ea5-4ff82ecc147d.0" configVersion="7e9b57aca42d044183e652c8d83499ef00000000"/>
+		<Metadata name="InformationRegister.ТелеграмОбъектыПользователей.ManagerModule" id="f7f62bf8-9fc6-4714-9ea5-4ff82ecc147d.2" configVersion="304821112259ae4f8064313eceb360f600000000"/>
+		<Metadata name="InformationRegister.ТелеграмСмещение" id="82763fb3-9092-481a-88a1-4f765a465afc" configVersion="e9357272f6de284889b062f944d4707600000000">
+			<Metadata name="InformationRegister.ТелеграмСмещение.Dimension.Бот" id="a038b84c-69f8-479c-a0d4-4d6f82d210cb"/>
+			<Metadata name="InformationRegister.ТелеграмСмещение.Resource.Смещение" id="e8f4c344-cc5d-4ef1-9a45-5d443da93c10"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмСмещение.ManagerModule" id="82763fb3-9092-481a-88a1-4f765a465afc.2" configVersion="83210c67cdec5b418cc38785de3ba8c700000000"/>
+		<Metadata name="InformationRegister.ТелеграмСтатистика" id="c9478948-2692-41fe-9990-c3b672704e45" configVersion="34afc60b1dc22c418b3be171442d489600000000">
+			<Metadata name="InformationRegister.ТелеграмСтатистика.Dimension.Пользователь" id="18d05b22-dc08-47d1-8b37-fb4d54387927"/>
+			<Metadata name="InformationRegister.ТелеграмСтатистика.Dimension.Бот" id="a875065e-b8ec-4b89-8ba1-31458c5d5a7d"/>
+			<Metadata name="InformationRegister.ТелеграмСтатистика.Resource.Принято" id="deda141e-8750-47e8-97f4-e14438ad3e75"/>
+			<Metadata name="InformationRegister.ТелеграмСтатистика.Dimension.Чат" id="ea1bf35a-5f3b-40f7-9637-077b624159b7"/>
+			<Metadata name="InformationRegister.ТелеграмСтатистика.Resource.Обновлено" id="ec543679-1bfd-42c8-8934-f39b920aa266"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмСтатистика.Form.ФормаЗаписи" id="e77246aa-d0f9-42b8-a2b4-32f8f72de81e" configVersion="e2f83a6cc42ea541bfd5ff6dad41d0a200000000"/>
+		<Metadata name="InformationRegister.ТелеграмСтатистика.Form.ФормаЗаписи.Form" id="e77246aa-d0f9-42b8-a2b4-32f8f72de81e.0" configVersion="e2947b0113de4c45b9464d978280cb5d00000000"/>
+		<Metadata name="InformationRegister.ТелеграмСтатистика.Form.ФормаСписка" id="14f48dcc-44ac-47e7-b264-5a193f37908d" configVersion="f83cbe546bb1cd4894f10a7fb885557400000000"/>
+		<Metadata name="InformationRegister.ТелеграмСтатистика.Form.ФормаСписка.Form" id="14f48dcc-44ac-47e7-b264-5a193f37908d.0" configVersion="569e87903ea59742829f6e7fc16ad90e00000000"/>
+		<Metadata name="InformationRegister.ТелеграмСтатистика.Help" id="c9478948-2692-41fe-9990-c3b672704e45.0" configVersion="f3a1e451fd0f1947abb95f162cbbbff700000000"/>
+		<Metadata name="InformationRegister.ТелеграмСтатистика.ManagerModule" id="c9478948-2692-41fe-9990-c3b672704e45.2" configVersion="7e4beb2893e8854093c451a3a41c05fc00000000"/>
+		<Metadata name="InformationRegister.ТелеграмТаймеры" id="3d5f2d7e-5f1d-47c7-b863-0e91ac9b8b96" configVersion="1d87d06bc12880409f866d48868e11e700000000">
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.Пояснение" id="2a85bd8f-10fb-4a3e-8c08-aa3de1b932f1"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.Условие" id="326443dd-775c-46c7-9e8b-2d4b6858b360"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.Обработка" id="3421883e-ae19-4930-8b4a-6a6492f592c1"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Dimension.НомерПП" id="573529f8-0b49-41fe-b8f2-0369a649ab05"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Attribute.ДатаВыполнения" id="5eb412dc-8e1b-46e0-8aeb-5dabc9afbb07"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.ВремяАктуальности" id="6484a518-1457-4ef5-894b-121f895325e9"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.Выполнено" id="8b9413b1-14f2-4674-907d-7742b8e3c449"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.Бот" id="9429233a-ed19-4173-9d65-abec4fe9f9bd"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.ЗначениеУсловия" id="bf0bda25-d0ed-4751-8803-696d031e8275"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.ВходящееОбновлениеXML" id="ec37b298-f1ba-4e34-9acd-01a6d41fb014"/>
+			<Metadata name="InformationRegister.ТелеграмТаймеры.Resource.ДатаСрабатывания" id="fb059ae4-71bc-444e-8257-dc10ed12961b"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмТаймеры.Form.ФормаЗаписи" id="5640dddb-6b3d-471e-97fd-71854ab62eed" configVersion="641597ba708a1f469de0b812110adf4700000000"/>
+		<Metadata name="InformationRegister.ТелеграмТаймеры.Form.ФормаЗаписи.Form" id="5640dddb-6b3d-471e-97fd-71854ab62eed.0" configVersion="a1d59897d81ca947a80e855cb8f1399e00000000"/>
+		<Metadata name="InformationRegister.ТелеграмТаймеры.Form.ФормаСписка" id="73e7434c-8cab-4940-b578-7d368cde4360" configVersion="c0099bd8f940bc488ec3a8fc71323fb000000000"/>
+		<Metadata name="InformationRegister.ТелеграмТаймеры.Form.ФормаСписка.Form" id="73e7434c-8cab-4940-b578-7d368cde4360.0" configVersion="bb79635635da474799abbb14313a44ee00000000"/>
+		<Metadata name="InformationRegister.ТелеграмТаймеры.Help" id="3d5f2d7e-5f1d-47c7-b863-0e91ac9b8b96.0" configVersion="dbee54fa7699d344bd3471fdcee2624c00000000"/>
+		<Metadata name="InformationRegister.ТелеграмТаймеры.ManagerModule" id="3d5f2d7e-5f1d-47c7-b863-0e91ac9b8b96.2" configVersion="44916f52b1517447917253bd0971a17100000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи" id="a147d9c5-29b4-413f-ac68-1a9233c84809" configVersion="27a201dc1b85f64e95a69ae7edbd242e00000000">
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Dimension.Ключ" id="063dc6f9-23d9-4006-9627-242f1b78c519"/>
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Resource.Вывод" id="863d75c4-7c64-40a5-8c3d-e4f00388ed11"/>
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Resource.Псевдонимы" id="a6b7fce4-39df-4735-ba9e-350d71f41b69"/>
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Resource.Наименование" id="cea95987-c0e4-41d3-a09c-027870249d56"/>
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Resource.АльфаКод" id="d2333e79-6910-4526-91cc-fdd9582eb53c"/>
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Resource.Utf8" id="deb791e9-c344-4aef-b99b-bef60c5a8c51"/>
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Resource.Hex" id="e6f2d2ff-2a8f-4c3a-ad1f-ad25e272e8bf"/>
+			<Metadata name="InformationRegister.ТелеграмЭмодзи.Resource.Bytes" id="f4d0546f-dcae-4cd8-a7c2-acf37373f55d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Form.ФормаЗаписи" id="013a9e67-06fb-4e23-832b-3fcf6fcae6e1" configVersion="ad8a635cd98fc244826ec39fc34d01e500000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Form.ФормаЗаписи.Form" id="013a9e67-06fb-4e23-832b-3fcf6fcae6e1.0" configVersion="f6c07d6cf77ec44781060904f976a4aa00000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Form.ФормаСписка" id="ac3fa11f-77fc-469e-a691-c0feb6abfbcd" configVersion="8a2d3b288024fe4d83d2cc36546e1fe400000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Form.ФормаСписка.Form" id="ac3fa11f-77fc-469e-a691-c0feb6abfbcd.0" configVersion="6eddb418c5f8cf428a7374f667823bd200000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Help" id="a147d9c5-29b4-413f-ac68-1a9233c84809.0" configVersion="a0ae974f8634bd42b5ec0606aa15610a00000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.ManagerModule" id="a147d9c5-29b4-413f-ac68-1a9233c84809.2" configVersion="e3872519ceac194aa2d379096811c9a300000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.RecordSetModule" id="a147d9c5-29b4-413f-ac68-1a9233c84809.1" configVersion="bdba2796742e29428a146f2466d0d40b00000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Template.atlas_htm" id="0b499016-9fdc-4805-a73c-aa4929bd7f44" configVersion="5acc943091509e439517403219434cfb00000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Template.atlas_htm.Template" id="0b499016-9fdc-4805-a73c-aa4929bd7f44.0" configVersion="87e0aaaff58b4e499d897d2aee95298100000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Template.emj_png_htm" id="f8990518-15b1-4b50-b7f6-b558207c353f" configVersion="e614afe98aa8f7478fcd3f254faec19300000000"/>
+		<Metadata name="InformationRegister.ТелеграмЭмодзи.Template.emj_png_htm.Template" id="f8990518-15b1-4b50-b7f6-b558207c353f.0" configVersion="8dedf5c00d4d174a81a9adca1440720200000000"/>
+		<Metadata name="Language.Русский" id="b48c0aae-e626-465f-a888-3f40e86efa14" configVersion="4ce5c47a80497f4cbabadf4c9086f3a900000000"/>
+		<Metadata name="Role.ТелеграмИнвайтыИзменение" id="f96e08cd-9a6f-41e2-a1a2-cf2415ac7b2d" configVersion="fa2668579b75fb4cb3fdb1aef91a0a8500000000"/>
+		<Metadata name="Role.ТелеграмИнвайтыИзменение.Rights" id="f96e08cd-9a6f-41e2-a1a2-cf2415ac7b2d.0" configVersion="c1c296c5d6d6c04e95488cddcdb870f500000000"/>
+		<Metadata name="Role.ТелеграмПолныеПрава" id="09220316-124c-4a8e-a88b-cd73ae268457" configVersion="85929a778f8123429f870fb28e0161fe00000000"/>
+		<Metadata name="Role.ТелеграмПолныеПрава.Rights" id="09220316-124c-4a8e-a88b-cd73ae268457.0" configVersion="d102386071ae8443a7f59d314356607500000000"/>
+		<Metadata name="Role.ТелеграмПросмотр" id="33f2752c-86b6-40d0-b6cd-5c7d09bb3515" configVersion="a6d930f037d1a54da22cd8777c347a5d00000000"/>
+		<Metadata name="Role.ТелеграмПросмотр.Rights" id="33f2752c-86b6-40d0-b6cd-5c7d09bb3515.0" configVersion="2c436f7f29b0004da6292a7641975ebc00000000"/>
+		<Metadata name="ScheduledJob.ТелеграмОчисткаЖурнала" id="d1015d59-a1e8-434e-b041-f8f8a342414e" configVersion="7874d0fe9c82dd43a43974e03cc7e0b900000000"/>
+		<Metadata name="ScheduledJob.ТелеграмОчисткаЖурнала.Schedule" id="d1015d59-a1e8-434e-b041-f8f8a342414e.0" configVersion="406da1c405993a4eadeaac6882d427dd00000000"/>
+		<Metadata name="ScheduledJob.ТелеграмПолучениеОбновлений" id="4760712d-d48f-466d-b75f-870c5f2c36c6" configVersion="64a572f7b1d8ee4aa68e7d2282bf1ef900000000"/>
+		<Metadata name="ScheduledJob.ТелеграмТаймеры" id="6fdeb6ab-c88d-47de-acbc-59b8fd97bacb" configVersion="b72475134ae79841b4641bcad543fe1200000000"/>
+		<Metadata name="ScheduledJob.ТелеграмТаймеры.Schedule" id="6fdeb6ab-c88d-47de-acbc-59b8fd97bacb.0" configVersion="e4e6a98d82f09042b579c5ceab57ab0100000000"/>
+		<Metadata name="Subsystem.Телеграм" id="87820818-7e7a-44b4-a475-e80c52ae0a2a" configVersion="ab606b38be366541993f39535adb94c600000000"/>
+		<Metadata name="Subsystem.Телеграм.CommandInterface" id="87820818-7e7a-44b4-a475-e80c52ae0a2a.1" configVersion="8be9ebdc4ac389418d7814e8e4380d0500000000"/>
+		<Metadata name="Subsystem.Телеграм.Help" id="87820818-7e7a-44b4-a475-e80c52ae0a2a.0" configVersion="346a7b0d5122514d91ca4825140cbea800000000"/>
+		<Metadata name="Subsystem.Телеграм.Subsystem.Настройки" id="5ec7aa8b-fdd1-48d2-abb3-1d350e336374" configVersion="6b82bc5e7a5da54b85d4ac4305c46e2400000000"/>
+		<Metadata name="Subsystem.Телеграм.Subsystem.Настройки.CommandInterface" id="5ec7aa8b-fdd1-48d2-abb3-1d350e336374.1" configVersion="7b849c2b21717d40bea4f31b135a856300000000"/>
+		<Metadata name="Subsystem.Телеграм.Subsystem.ПервыеШаги" id="4620af30-f607-4f46-b485-1812b360f5bf" configVersion="21ba614fa1338d42887de741e35bdfbc00000000"/>
+		<Metadata name="Subsystem.Телеграм.Subsystem.ПервыеШаги.CommandInterface" id="4620af30-f607-4f46-b485-1812b360f5bf.1" configVersion="c682a96b04c4f04084784f35598dd87800000000"/>
+		<Metadata name="Subsystem.Телеграм.Subsystem.Списки" id="ff29aace-0fbc-4b6c-bab0-8a60e7fe436d" configVersion="5d08098d3e2fcf47b7bfb4ae6f92570800000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
