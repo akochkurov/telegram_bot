@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1С HTTP-сервис ТелеграмВебхук</title>
+    <style type="text/css">
+        p { 
+			width: 45em;
+        }
+        .key {
+       		color: [КлючЦвет];
+        }
+        .bot {
+        	color: [БотИмяЦвет];
+        }
+        .used {
+        	color: [ИспользуетсяЦвет];
+        }
+        .updates {
+        	color: [СпособСвязиЦвет];
+        }
+    </style>    
+</head>
+<body>
+    <h1>Привет, я Get-метод бота Telegram</h1>
+    <ul>
+        <li>Ключ: <span class="key">[Ключ]</span></li>
+        <li>Найденный по ключу бот: <span class="bot">[БотИмя]</span></li>
+        <li>Используется: <span class="used">[Используется]</span></li>
+        <li>Способ связи: <span class="updates">[СпособСвязи]</span></li>
+    </ul>
+    <p>Инструкция по настройке вебхука: <a href="https://core.telegram.org/bots/webhooks">https://core.telegram.org/bots/webhooks</a></p>
+    <p>Хотите быстро убедиться, что вебхук работает, не разворачивая ничего, кроме веб-сервера на локальном компьютере? Используйте безопасный туннель к localhost с помощью <a href="https://ngrok.com/">https://ngrok.com/</a> и видеоинструкцию на странице проекта</p>
+</body>
+</html>

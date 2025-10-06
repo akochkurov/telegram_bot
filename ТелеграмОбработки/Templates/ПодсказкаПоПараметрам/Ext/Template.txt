@@ -1,0 +1,38 @@
+﻿// Процедура ТелеграмСервер.ВыполнитьКодОбработки выполняет код обработки
+//
+// Параметры:
+//  1 — Бот — СправочникСсылка.ТелеграмБоты — текущий бот
+//  2 — Обработка — СправочникСсылка.ТелеграмОбработки — текущая обработка
+//  3 — КодОбработки — строка — выполняемый код
+//  4 — <span style="color:red">Вход</span> — структура — входящие данные
+//
+// <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAuFJREFUeNpsU0lPFEEU/nqZZpmBYRVwWIUIJsyIS0yEgwnoCYInDp688RtIMBqNRuLZE3+BkxE9KIwxSpSAoMFggIQowaCgAz3TS3XT0+WrYjAerOSr1/WWL1Wv36c8nZ7Gf1accI1zXkUAIUPbS7JmeHT+C/24ouAwCLcJYyWVDRq0yJE/8GH92s6HYThB53sEn4chBJkeBMFxcSdhKlrXmlTqOuHCQBBySa6rCsoak9rh9ufxzNbaMBGNUO4aWei+74viWjrMxluTCafyFEyXg+V9vF9YlgSXLpxFaURDvCGFuGokd1bnX1D+ObpFRvU8D4yxu9H69oRV1oyf1iF2bR+zb+bx8MZlPL7Zi1dzC9InYn51Byqbu5pd173vuC5U5rpVRDDKa9rxm5IytgfT8eEHeZyMaVDoBuJb+ERM5BQ3p+A4ziihSncZ64+faNJMFiDrBrC8EG7A0Xa6C1cfPJFPOJPqgcM8cF2BzlVEVR2i5vvml36dWDpi1O2AesG8vIRPBHvbXzEzfl0SDD56hpqGRigVZWDQwCIhddaAY9ttgsB3rRz8XBa5rE8NJJLDEPumJYuFtWwHRaYJjQfQSjSUcwPMtsUz8oJgK5vZhVqehW0yZC0fDhE4ji0J9ojQYwzMdZANGIpiBnytGAd7O4JgS6VrpL+tr+ZjhoIooZjeqSlcTBYOqHHgcsqkT8REjshdW1nKE0FapS1DmNxfX0RtLIKqUmpQsQ5DV1FRakBVgQh9C5+IiZzt5deg3zhJPyAjngAaijtLc+nhHkVLJFpSsjhnHk15R10cahigvtyQxdmNBbybfb5Fw3dLTKIyODQEOddh2EmzPdV9sTfZcv4KXB7Bp80fkiRRXYameAQb8zP48Da9QsUjlL8mJKAMDAyIYqkHslJMZMc6u3s0ozRKPg7PsbD6cTFPsQmKHYmpoEalr69PqooXSApEcbJCzrUF3x4vyPlfKYv1R4ABADTuEnj2MIjNAAAAAElFTkSuQmCC" /> При выполнении через сервис структура <span style="color:red">Вход</span> содержит следующие ключи:
+//		
+//	&bull; Текст — строка или неопределено — текст сообщения
+//	&bull; ПараметрыРассылки — Структура — значения параметров <a href="e1cib/list/Справочник.ТелеграмРассылки">запускаемой рассылки</a> <span style="color:red">(структура присутствует только при запуске из рассылки)</span>
+//	&bull; ОтветКК — строка или неопределено — данные отправки с контекстной клавиатуры
+//	&bull; Чат — СправочникСсылка.ТелеграмЧатыПользователи — текущий чат
+//	&bull; ИдЧата — число или неопределено — идентификатор чата
+//	&bull; ПараметрыЧата — Структура — <a href="e1cib/list/РегистрСведений.ТелеграмЗначенияПараметров">значения параметров</a> чата
+//	&bull; Пользователь — СправочникСсылка.ТелеграмЧатыПользователи — текущий пользователь
+//	&bull; ПараметрыУведомления — Структура — Структура куда следует помещать произвольные данные для отправки уведомлений, в последующих обработках  
+//	&bull; ИдПользователя — число или неопределено — идентификатор пользователя
+//	&bull; ПараметрыПользователя — Структура — <a href="e1cib/list/РегистрСведений.ТелеграмЗначенияПараметров">значения параметров</a> пользователя
+//	&bull; ИдСообщения — число или неопределено — идентификатор текущего сообщения
+//	&bull; ОтветИдСообщения — число или неопределено — идентификатор сообщение через нажатие ответ на сообщение
+//	&bull; Сообщение — структура или неопределено — <a href="https://core.telegram.org/bots/api#message">message</a> <sup>(1)</sup>
+//	&bull; СообщениеКК — структура или неопределено — <a href="https://core.telegram.org/bots/api#message">message</a> контекстной клавиатуры <sup>(2)</sup>
+//	&bull; <span style="color:red">ПрерватьВыполнение</span> — Булево — при установке в 'Истина' никакие обработки после этой выполнены не будут
+//	&bull; ВыполненныеОбработки — таблица значений с колонками Сервис и Обработка — выполненные в этом обновлении обработки
+//	&bull; + все ключи текущего <a href="https://core.telegram.org/bots/api#update">update</a>
+//
+//  <sup>(1)</sup> Заполненная структура, если это сообщение, отредактированное сообщение, пост из канала или отредактированный пост из канала
+//  <sup>(2)</sup> Заполненная структура, если это нажатие кнопки на контекстной клавиатуре, и описывает сообщение, которому принадлежит кнопка контекстной клавиатуры
+//
+Процедура ВыполнитьКодОбработки(Бот, Обработка, КодОбработки, Вход) Экспорт
+
+    Выполнить(КодОбработки);
+
+КонецПроцедуры 
+
+

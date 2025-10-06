@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаРазблокировать" id="102">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Разблокировать</CommandName>
+				<ExtendedTooltip name="ФормаРазблокироватьРасширеннаяПодсказка" id="103"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Pages name="Страницы" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalStretch>true</VerticalStretch>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<Page name="СтраницаОсновная" id="21">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница основная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаОсновнаяРасширеннаяПодсказка" id="22"/>
+					<ChildItems>
+						<InputField name="Описание" id="13">
+							<DataPath>Объект.Описание</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<VerticalStretch>true</VerticalStretch>
+							<ContextMenu name="ОписаниеКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Метод" id="4">
+							<DataPath>Объект.Метод</DataPath>
+							<ContextMenu name="МетодКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="МетодРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="URL" id="7">
+							<DataPath>Объект.URL</DataPath>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="URLКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="URLРасширеннаяПодсказка" id="9"/>
+							<Events>
+								<Event name="Opening">URLОткрытие</Event>
+							</Events>
+						</InputField>
+						<InputField name="СпособПередачиПараметров" id="10">
+							<DataPath>Объект.СпособЗапроса</DataPath>
+							<ContextMenu name="СпособПередачиПараметровКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="СпособПередачиПараметровРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ФункцияМетода" id="70">
+							<DataPath>Объект.ФункцияМетода</DataPath>
+							<ContextMenu name="ФункцияМетодаКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="ФункцияМетодаРасширеннаяПодсказка" id="72"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаПараметры" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница параметры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаПараметрыРасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<UsualGroup name="Группа1" id="41">
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+							<ChildItems>
+								<UsualGroup name="Группа2" id="43">
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="44"/>
+									<ChildItems>
+										<Table name="Параметры" id="25">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<DataPath>Объект.Параметры</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ПараметрыКонтекстноеМеню" id="26"/>
+											<AutoCommandBar name="ПараметрыКоманднаяПанель" id="27">
+												<ChildItems>
+													<Button name="ПараметрыПараметрПодбор" id="78">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ПараметрПодбор</CommandName>
+														<ExtendedTooltip name="ПараметрыПараметрПодборРасширеннаяПодсказка" id="79"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="ПараметрыРасширеннаяПодсказка" id="28"/>
+											<SearchStringAddition name="ПараметрыСтрокаПоиска" id="29">
+												<AdditionSource>
+													<Item>Параметры</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПараметрыСтрокаПоискаКонтекстноеМеню" id="30"/>
+												<ExtendedTooltip name="ПараметрыСтрокаПоискаРасширеннаяПодсказка" id="31"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ПараметрыСостояниеПросмотра" id="32">
+												<AdditionSource>
+													<Item>Параметры</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПараметрыСостояниеПросмотраКонтекстноеМеню" id="33"/>
+												<ExtendedTooltip name="ПараметрыСостояниеПросмотраРасширеннаяПодсказка" id="34"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ПараметрыУправлениеПоиском" id="35">
+												<AdditionSource>
+													<Item>Параметры</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ПараметрыУправлениеПоискомКонтекстноеМеню" id="36"/>
+												<ExtendedTooltip name="ПараметрыУправлениеПоискомРасширеннаяПодсказка" id="37"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="ПараметрыНаименование" id="38">
+													<DataPath>Объект.Параметры.Наименование</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ПараметрыНаименованиеКонтекстноеМеню" id="39"/>
+													<ExtendedTooltip name="ПараметрыНаименованиеРасширеннаяПодсказка" id="40"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа3" id="45">
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="46"/>
+									<ChildItems>
+										<InputField name="ПараметрыПараметр" id="47">
+											<DataPath>Items.Параметры.CurrentData.Параметр</DataPath>
+											<ContextMenu name="ПараметрыПараметрКонтекстноеМеню" id="48"/>
+											<ExtendedTooltip name="ПараметрыПараметрРасширеннаяПодсказка" id="49"/>
+										</InputField>
+										<InputField name="ПараметрыТип" id="56">
+											<DataPath>Items.Параметры.CurrentData.Тип</DataPath>
+											<ContextMenu name="ПараметрыТипКонтекстноеМеню" id="57"/>
+											<ExtendedTooltip name="ПараметрыТипРасширеннаяПодсказка" id="58"/>
+										</InputField>
+										<InputField name="ПараметрыОписание" id="59">
+											<DataPath>Items.Параметры.CurrentData.Описание</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ContextMenu name="ПараметрыОписаниеКонтекстноеМеню" id="60"/>
+											<ExtendedTooltip name="ПараметрыОписаниеРасширеннаяПодсказка" id="61"/>
+										</InputField>
+										<InputField name="ПараметрыURL1" id="86">
+											<DataPath>Items.Параметры.CurrentData.URL1</DataPath>
+											<OpenButton>true</OpenButton>
+											<ContextMenu name="ПараметрыURL1КонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="ПараметрыURL1РасширеннаяПодсказка" id="88"/>
+											<Events>
+												<Event name="Opening">URLОткрытие</Event>
+											</Events>
+										</InputField>
+										<InputField name="ПараметрыURL2" id="89">
+											<DataPath>Items.Параметры.CurrentData.URL2</DataPath>
+											<OpenButton>true</OpenButton>
+											<ContextMenu name="ПараметрыURL2КонтекстноеМеню" id="90"/>
+											<ExtendedTooltip name="ПараметрыURL2РасширеннаяПодсказка" id="91"/>
+											<Events>
+												<Event name="Opening">URLОткрытие</Event>
+											</Events>
+										</InputField>
+										<UsualGroup name="Группа5" id="100">
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>StrongSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="101"/>
+											<ChildItems>
+												<CheckBoxField name="ПараметрыОбязательныйДляЗаполнения" id="50">
+													<DataPath>Items.Параметры.CurrentData.ОбязателенДляЗаполнения</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ПараметрыОбязательныйДляЗаполненияКонтекстноеМеню" id="51"/>
+													<ExtendedTooltip name="ПараметрыОбязательныйДляЗаполненияРасширеннаяПодсказка" id="52"/>
+												</CheckBoxField>
+												<CheckBoxField name="ПараметрыОбязательныйДляПередачи" id="53">
+													<DataPath>Items.Параметры.CurrentData.ОбязателенДляПередачи</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ПараметрыОбязательныйДляПередачиКонтекстноеМеню" id="54"/>
+													<ExtendedTooltip name="ПараметрыОбязательныйДляПередачиРасширеннаяПодсказка" id="55"/>
+												</CheckBoxField>
+												<CheckBoxField name="ПараметрыЕстьПреобразование" id="83">
+													<DataPath>Items.Параметры.CurrentData.ЕстьПроцедура</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ПараметрыЕстьПреобразованиеКонтекстноеМеню" id="84"/>
+													<ExtendedTooltip name="ПараметрыЕстьПреобразованиеРасширеннаяПодсказка" id="85"/>
+												</CheckBoxField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="Группа4" id="98">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Параметры с двоичными данными</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Behavior>Usual</Behavior>
+											<Representation>StrongSeparation</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="99"/>
+											<ChildItems>
+												<CheckBoxField name="ПараметрыВходнойФайл" id="80">
+													<DataPath>Items.Параметры.CurrentData.ДвоичныеДанные</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ПараметрыВходнойФайлКонтекстноеМеню" id="81"/>
+													<ExtendedTooltip name="ПараметрыВходнойФайлРасширеннаяПодсказка" id="82"/>
+												</CheckBoxField>
+												<CheckBoxField name="ПараметрыОтслеживаниеКонтрольнойСуммы" id="92">
+													<DataPath>Items.Параметры.CurrentData.ОтслеживатьПоКонтрольнойСумме</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ПараметрыОтслеживаниеКонтрольнойСуммыКонтекстноеМеню" id="93"/>
+													<ExtendedTooltip name="ПараметрыОтслеживаниеКонтрольнойСуммыРасширеннаяПодсказка" id="94"/>
+												</CheckBoxField>
+												<InputField name="ПараметрыПараметрОтслеживанияКонтрольнойСуммы" id="95">
+													<DataPath>Items.Параметры.CurrentData.ПараметрОтслеживания</DataPath>
+													<ContextMenu name="ПараметрыПараметрОтслеживанияКонтрольнойСуммыКонтекстноеМеню" id="96"/>
+													<ExtendedTooltip name="ПараметрыПараметрОтслеживанияКонтрольнойСуммыРасширеннаяПодсказка" id="97"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДополнительно" id="65">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница дополнительно</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаДополнительноРасширеннаяПодсказка" id="66"/>
+					<ChildItems>
+						<InputField name="Код" id="67">
+							<DataPath>Объект.Code</DataPath>
+							<ContextMenu name="КодКонтекстноеМеню" id="68"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="69"/>
+						</InputField>
+						<InputField name="Родитель" id="73">
+							<DataPath>Объект.Parent</DataPath>
+							<ContextMenu name="РодительКонтекстноеМеню" id="74"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="75"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Комментарий" id="16">
+			<DataPath>Объект.Комментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="18"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ТелеграмМетоды</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПараметрПодбор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметр подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПараметрПодбор</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Разблокировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разблокировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разблокировать форму для редактирования</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Разблокировать</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
